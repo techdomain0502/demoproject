@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/anticipate_interpolator" >
+
+    <translate
+        android:duration="@android:integer/config_longAnimTime"
+        android:fromYDelta="0%p"
+        android:toYDelta="-100%p" />
+
+</set><!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/anim/trans_top_out.xml -->

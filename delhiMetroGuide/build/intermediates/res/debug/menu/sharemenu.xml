@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_item_share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:showAsAction="ifRoom"
+        android:title="Share"/>
+
+</menu><!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/menu/sharemenu.xml -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblListItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dip"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
+
+</LinearLayout><!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/layout/place_list_item.xml -->

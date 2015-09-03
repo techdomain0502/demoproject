@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/change_lang"
+        android:showAsAction="always"
+        android:title="@string/language_menu"/>
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="always"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings"
+        />
+
+</menu><!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/menu/settingsmenu.xml -->

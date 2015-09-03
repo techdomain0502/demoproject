@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\android_newworkspace\custom\2nd stable release gradle\delhiMetroGuide\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\android_newworkspace\custom\2nd stable release gradle\delhiMetroGuide\build\intermediates\pre-dexed\release\internal_impl-22.2.1-c8871ff5335afd131dbb25798e707eebd4ec4817.jar" />
+    </item>
+    <item
+        jar="D:\android_newworkspace\custom\2nd stable release gradle\delhiMetroGuide\build\intermediates\exploded-aar\2nd stable release gradle\flipboard_library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="451ecc97dd32165d71845e553a6f9f5472b3f0c2">
+        <dex dex="D:\android_newworkspace\custom\2nd stable release gradle\delhiMetroGuide\build\intermediates\pre-dexed\release\classes-7c817a7dd2fc6c65a53e739160637fa91365aa18.jar" />
+    </item>
+    <item
+        jar="D:\android_newworkspace\custom\2nd stable release gradle\delhiMetroGuide\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\android_newworkspace\custom\2nd stable release gradle\delhiMetroGuide\build\intermediates\pre-dexed\release\classes-4502dd94fff235e9f7f924147f709f742b51a810.jar" />
+    </item>
+    <item
+        jar="D:\android_newworkspace\custom\2nd stable release gradle\delhiMetroGuide\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="D:\android_newworkspace\custom\2nd stable release gradle\delhiMetroGuide\build\intermediates\pre-dexed\release\classes-0e90784621eeac50fe387ea74f437415a2640dde.jar" />
+    </item>
+    <item
+        jar="D:\android_newworkspace\custom\2nd stable release gradle\delhiMetroGuide\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="D:\android_newworkspace\custom\2nd stable release gradle\delhiMetroGuide\build\intermediates\pre-dexed\release\classes-47ec09933e76c19f3d48aeec628460a0029bbdb9.jar" />
+    </item>
+    <item
+        jar="D:\android_newworkspace\custom\2nd stable release gradle\delhiMetroGuide\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="D:\android_newworkspace\custom\2nd stable release gradle\delhiMetroGuide\build\intermediates\pre-dexed\release\classes-f791d04b2c4a2f900f0be651b0810c39b48bb9fa.jar" />
+    </item>
+    <item
+        jar="D:\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\android_newworkspace\custom\2nd stable release gradle\delhiMetroGuide\build\intermediates\pre-dexed\release\support-annotations-22.2.1-0ba23d30e82ca3f6e12a064da746f3a00bb0b6ca.jar" />
+    </item>
+
+</items>

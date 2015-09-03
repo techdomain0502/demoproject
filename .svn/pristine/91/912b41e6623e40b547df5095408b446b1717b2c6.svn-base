@@ -1,0 +1,286 @@
+package com.delhi.metro.sasha.route;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+
+import android.app.ActionBar;
+import android.app.Activity;
+import android.content.SharedPreferences;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.os.Message;
+import android.support.v4.app.ListFragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ListView;
+
+import com.delhi.metro.sasha.R;
+import com.delhi.metro.sasha.db.DataFeeder;
+import com.delhi.metro.sasha.fare.CalculateFare;
+import com.delhi.metro.sasha.stops.StopListUiActivity;
+import com.delhi.metro.sasha.utils.LogUtils;
+import com.delhi.metro.sasha.utils.Utils;
+
+public class StopListUiFragment extends ListFragment {
+	
+	private String src,dest;
+	ArrayList<Vertex> nodes;
+	ArrayList<Edge> edges;
+	HashMap<String, Vertex> stopMap;
+	ArrayList<ListViewItem> itemlist;
+	StopListUiAdapter adapter;
+	HashMap<String, String> colorMap,lineMap;
+	private StringBuilder builder;
+	private String noOfInterchange;
+	private String journeyTime;
+	private String noOfStations;
+	float time;
+	private float fare;
+	private int stationCount;
+    private SharedPreferences pref;
+    private String lang;
+    private HashMap<String, String> enToLangMap,langtoEnMap;
+
+
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		pref = getActivity().getSharedPreferences("metro", getActivity().MODE_PRIVATE);
+		lang = pref.getString("language", "en");
+        updateStationListandMap();
+		setHasOptionsMenu(true);
+		Bundle bundle = this.getArguments();
+		if(bundle!=null){
+			src = (String)bundle.getString("source");
+			dest = (String)bundle.getString("destination");
+		}
+		
+		DataFeeder instance = DataFeeder.getInstance(getActivity());
+		nodes = instance.getNodesList();
+		edges = instance.getEdgeList();
+		stopMap = instance.getStopMap();
+		colorMap = instance.getStopColorMap();
+		lineMap = instance.getStopLineMap();
+		builder = new StringBuilder();
+		builder.append("Line Color Codes:(V(violet),I(indigo),B(blue),G(green),Y(yellow),O(orange),Red(red)))\n");
+		builder.append("Path from "+src+" to "+dest+" \n" );
+		ArrayList<Vertex> list = new CalculatePath(getActivity()).initialize(nodes,edges,src,dest,stopMap);
+		itemlist = new ArrayList<ListViewItem>();
+		if(!src.equalsIgnoreCase(dest)){
+		Iterator<Vertex> iterator = list.iterator();
+		while(iterator.hasNext()){
+			Vertex v = iterator.next();
+			ListViewItem item = new ListViewItem(getResources().getDrawable(R.drawable.ic_launcher),v.getName()	,"");
+			itemlist.add(item);
+		}		
+
+		adapter = new StopListUiAdapter(getActivity(), itemlist,colorMap,lineMap,lang,enToLangMap);
+		}
+	
+		noOfStations = String.valueOf(list.size()-1);
+		time = (float) ((list.size()-1) * 2.5); 
+		journeyTime = formatTime(time);
+		for(int position=0;position<list.size();position++){
+			String interchangePlaceHolder =getActivity().getResources().getString(R.string.junction);
+			Vertex current = list.get(position);
+			Vertex next = null,previous = null;
+			if((position+1)<list.size())
+				next = list.get(position+1);
+			if((position-1)>=0 && (position-1)<list.size())
+				previous = list.get(position-1);
+			
+			if(colorMap.get(current.getName()).equalsIgnoreCase("X")){
+				String prevline=null,nextline=null;
+				String nextcolor=null,prevcolor=null;
+				if(previous!=null){
+					prevline = lineMap.get(previous.getName());
+					prevcolor= getColorName(previous.getName());
+				
+				}
+				
+				if(next!=null){
+					nextline = lineMap.get(next.getName());;
+					nextcolor = getColorName(next.getName());;
+				}
+
+				if(!Utils.isNullorWhiteSpace(nextline) && !Utils.isNullorWhiteSpace(prevline) && !prevline.equalsIgnoreCase(nextline)){
+		                if(!prevcolor.equalsIgnoreCase(nextcolor) && !nextcolor.equalsIgnoreCase("grey")){
+		            	  interchangePlaceHolder = "(Change for "+nextcolor+" line)";
+		            	  stationCount++;
+		                }
+		                else if(nextcolor.equalsIgnoreCase("grey")){
+		                  interchangePlaceHolder = "(Junction)";
+		                }
+		                else{
+		                	   if(previous!=null && next!=null) {
+		                		   if((previous.getName().equalsIgnoreCase("Indraprastha") && next.getName().equalsIgnoreCase("Laxmi Nagar")) 
+		                		      ||(previous.getName().equalsIgnoreCase("Laxmi Nagar") && next.getName().equalsIgnoreCase("Indraprastha"))
+		                		      ||(previous.getName().equalsIgnoreCase("Indraprastha") && next.getName().equalsIgnoreCase("Akshardham")) 
+		                		      ||(previous.getName().equalsIgnoreCase("Akshardham") && next.getName().equalsIgnoreCase("Indraprastha"))) {
+		                			   interchangePlaceHolder = "(Junction)";
+		                		   }
+		                		   else {
+		                    		    interchangePlaceHolder = "(Change here)";
+		      		                    stationCount++;
+		                    	   }
+		                	   }
+
+		                }
+		            }
+				 builder.append(interchangePlaceHolder + "-"+current.getName());
+			}
+			 else{
+				   builder.append(colorMap.get(current.getName())+"-"+current.getName());
+			 }
+			
+			builder.append("\n");			
+		}
+		
+		noOfInterchange = String.valueOf(stationCount);
+	}
+	
+	
+	private void updateStationListandMap() {
+	     if(lang.equalsIgnoreCase("en")) {
+	     }else if(lang.equalsIgnoreCase("hi")) {
+	    	 enToLangMap =  DataFeeder.getInstance(getActivity()).getenToHiMap();
+	    	 langtoEnMap = DataFeeder.getInstance(getActivity()).getHiToEnMap();
+	     }else if(lang.equalsIgnoreCase("mr")) {
+	    	 enToLangMap = DataFeeder.getInstance(getActivity()).getenToMrMap();
+	    	 langtoEnMap = DataFeeder.getInstance(getActivity()).getMrToEnMap();
+	     }else if(lang.equalsIgnoreCase("kn")) {
+	    	 enToLangMap = DataFeeder.getInstance(getActivity()).getenToKnMap();
+	    	 langtoEnMap = DataFeeder.getInstance(getActivity()).getKnToEnMap();
+	     }
+	     
+	     /*else if(lang.equalsIgnoreCase("ta")) {
+	    	 langtoEnMap = DataFeeder.getInstance(getActivity()).getTaToEnMap();
+	     }else if(lang.equalsIgnoreCase("te")) {
+	    	 langtoEnMap = DataFeeder.getInstance(getActivity()).getTeToEnMap();
+	     }else if(lang.equalsIgnoreCase("ml")) {
+	    	 langtoEnMap = DataFeeder.getInstance(getActivity()).getMlToEnMap();
+	     }
+*/
+	}    
+
+	
+	private String formatTime(float time2) {
+		int h = 0;
+		int m = 0;
+		int remainingseconds = 0;
+		int remainingmin = 0;
+		int seconds = (int) (time2 * 60) ;
+		String t = null;
+		if(seconds < 3600) {
+			m = seconds / 60;
+			remainingseconds = seconds % 60;
+			if(remainingseconds>0) 
+			   t =m+" min"+" "+remainingseconds+" sec";
+			else
+				t =m+" min";
+		}else {;
+			h = seconds / (60*60);
+			remainingseconds = seconds % (60*60);
+			if(remainingseconds>60)
+			{
+				remainingmin = remainingseconds/60;
+				remainingseconds = remainingseconds%60;
+				  
+			}
+			
+			if(remainingmin>0)
+			   t = h+" hour"+" "+remainingmin+" min";
+			else
+				t = h+" hour";
+		}
+		
+		return t;
+	}
+
+
+
+
+	private String getColorName(String stop_name){
+		String value = colorMap.get(stop_name);
+		String color ="";
+				
+		switch(value){
+				case "V":
+					color = getActivity().getResources().getString(R.string.violet);
+					break;
+				case "I":
+					color = getActivity().getResources().getString(R.string.indigo);
+					break;
+				case "B":
+					color = getActivity().getResources().getString(R.string.blue);
+					break;
+				case "G":
+					color = getActivity().getResources().getString(R.string.green);
+					break;
+				case "Y":
+					color = getActivity().getResources().getString(R.string.yellow);
+					break;
+				case "O":
+					color = getActivity().getResources().getString(R.string.orange);
+					break;
+				case "R":
+					color = getActivity().getResources().getString(R.string.red);
+					break;
+				case "X":
+					color = getActivity().getResources().getString(R.string.grey);
+		}			
+		
+		return color;
+	}
+	
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
+		View v = (ViewGroup) inflater.inflate(android.R.layout.list_content, container, false);
+		ListView list = (ListView)v.findViewById(android.R.id.list);
+		list.setDivider(getResources().getDrawable(R.drawable.divider));
+		list.setDividerHeight(2);
+		if(!src.equalsIgnoreCase(dest))
+		    setListAdapter(adapter);
+		return v;
+	}
+	
+	@Override
+	public void onActivityCreated(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onActivityCreated(savedInstanceState);
+		if(getActivity() instanceof StopListUiActivity) {
+		((StopListUiActivity)getActivity()).setSharePathString(builder.toString());
+		new UpdateHeaderTask().execute();
+		}
+	}
+	
+	public class UpdateHeaderTask extends AsyncTask<Void, Void, String>{
+		@Override
+		protected String doInBackground(Void... params) {
+			if(!Utils.isNullorWhiteSpace(src) && !Utils.isNullorWhiteSpace(dest)) {
+			    fare = new CalculateFare(getActivity()).getFare(src, dest);
+			}
+			return String.valueOf(fare);
+		}
+
+		@Override
+		protected void onPostExecute(String result) {
+			super.onPostExecute(result);
+		   if(getActivity() instanceof StopListUiActivity) {
+			   Message msg = Message.obtain();
+			   Bundle  b = new Bundle();
+			   b.putString("station", noOfStations);
+			   b.putString("interchange", noOfInterchange);
+			   b.putString("time", String.valueOf(journeyTime));
+			   b.putFloat("fare", fare);
+			   msg.setData(b);
+			   ((StopListUiActivity)getActivity()).getHandler().sendMessage(msg);
+		   }
+		}
+	}
+	
+}

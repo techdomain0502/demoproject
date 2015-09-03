@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" 
+    android:padding="10dp">
+    <gradient android:startColor="#ffcc00" 
+        android:endColor="#ffcc00" 
+        android:angle="-90" />
+</shape><!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/drawable/tab_focused.xml -->

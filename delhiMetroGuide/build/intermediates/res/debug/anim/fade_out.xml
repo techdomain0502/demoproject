@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:fromAlpha="1.0" android:toAlpha="0.0" 
+     android:interpolator="@android:anim/accelerate_interpolator" 
+   android:duration="400"
+    android:repeatCount="0"/>
+ </set><!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/anim/fade_out.xml -->

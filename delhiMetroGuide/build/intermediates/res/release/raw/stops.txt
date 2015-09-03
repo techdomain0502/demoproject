@@ -1,0 +1,134 @@
+Dilshad Garden,R
+Jhilmil,R
+Mansarovar Park,R
+Shahdara,R
+Welcome,R
+Seelampur,R
+Shastri Park,R,RiToDi
+Kashmere Gate,X
+Tis Hazari,R,RiToDi
+Pulbangash,R
+Pratap Nagar,R
+Shastri Nagar,R,RiToDi
+Mundka,G
+Rajdhani Park,G
+Nangloi Rly Station,G
+Nangloi,G
+Surajmal Stadium,G
+Udyog Nagar,G
+Peeragarhi,G
+Paschim Vihar(West),G
+Paschim Vihar(East),G
+Madipur,G
+Shivaji Park,G,MuToIn
+Punjabi Bagh,G
+Ashok Park Main,X,MuToIn
+Satguru Ram Singh Marg,G,MuToIn
+Inderlok,X,MuToIn
+Kanhaiya Nagar,R,RiToDi
+Keshav Puram,R
+Netaji Subash Palace,R
+Kohat Enclave,R
+Pitampura,R
+Rohini East,R
+Rohini West,R
+Rithala,R
+Jahangirpuri,Y
+Adarsh Nagar,Y
+Azadpur,Y
+Model Town,Y
+GTB Nagar,Y
+Vishwavidyalaya,Y
+Vidhan Sabha,Y
+Civil Lines,Y,JaToHu
+Chandni Chowk,Y,JaToHu
+Chawri Bazar,Y
+New Delhi,Y,JaToHu
+Rajiv Chowk,X
+Patel Chowk,Y,JaToHu
+Central Secretariat,X
+Udyog Bhawan,Y,JaToHu
+Race Course,Y
+Jorbagh,Y
+INA,Y
+AIIMS,Y
+Green Park,Y
+Hauz Khas,Y
+Malviya Nagar,Y
+Saket,Y
+Qutab Minar,Y
+Chattarpur,Y
+Sultanpur,Y
+Ghitorni,Y
+Arjangarh,Y
+Gurudronacharya,Y
+Sikandarpur,Y
+MG Road,Y
+IFFCO Chowk,Y
+Huda City Centre,Y
+Vaishali,B
+Kaushambi,B
+Anand Vihar,B
+Karkarduma,B
+Preet Vihar,B
+Nirman Vihar,B
+Laxmi Nagar,B,D21ToVa
+Noida City Centre,B
+Golf Course,B
+Botanical Garden,B
+Noida Sec-18,B
+Noida Sec-16,B
+Noida Sec-15,B
+New Ashok Nagar,B
+Mayur Vihar Ext,B
+Mayur Vihar 1,B
+Akshardham,B,D21ToNo
+Yamuna Bank,X
+Indraprastha,B,D21ToNo
+Pragati Maidan,B,D21ToNo
+Mandi House,X
+Barakhamba,B,D21ToNo
+R K Ashram Marg,B,D21ToNo
+Jhandewalan,B
+Karol Bagh,B
+Rajendra Place,B
+Patel Nagar,B
+Shadipur,B,D21ToNo
+Kirti Nagar,X
+Moti Nagar,B,D21ToNo
+Ramesh Nagar,B
+Rajouri Garden,B
+Tagore Garden,B
+Subash Nagar,B
+Tilak Nagar,B
+Janak Puri East,B
+Janak Puri West,B
+Uttam Nagar East,B
+Uttam Nagar West,B
+Nawada,B
+Dwarka Mor,B
+Dwarka,B
+Dwarka Sec-14,B
+Dwarka Sec-13,B
+Dwarka Sec-12,B
+Dwarka Sec-11,B
+Dwarka Sec-10,B
+Dwarka Sec-9,B
+Dwarka Sec-8,B
+Dwarka Sec-21,B
+Khan Market,V,BaToJan
+Jawaharlal Nehru Stadium,V
+Jangpura,V
+Lajpat Nagar,V
+Moolchand,V
+Kailash Colony,V
+Nehru Place,V
+Kalkaji Mandir,V
+Govindpuri,V
+Okhla,V
+Jasola,V
+Sarita Vihar,V
+Mohan Estate,V
+Tuglakabad,V
+Badarpur,V
+Janpath,V,BaToJan

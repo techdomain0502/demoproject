@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/values-kn/arrays.xml -->
+    <eat-comment/>
+    <string-array name="help_smartcard0">
+        <item>1. How to use Smart Card - Entry/Exit:At entry, hold your card close to the machine for gates to
+            open. Do the same at destination station for exit"\n"</item>
+        <item>2. Entry/Exit Mismatch - Every entry into the station must be followed by an exit from the destination
+            station. In case of mismatch, charges will be collected as per DMRC rules."\n"</item>
+        <item>3. Maximum period of stay - The maximum stay permissible in the Metro station is 170 minutes if entry/exit is 
+            from different stations.Within the same station, it is 20 minutes. In case of overstaying
+            beyond permissible time(except tourist card) Penalty of Rs 10 per hour subject to maximum
+            of Rs 50 will be charged."\n"</item>
+        <item>4. Keep the card safe - Please donot damage the Smart Card. No Refund
+            is gauranteed on damaged cards."\n"</item>
+    </string-array>
+    <string-array name="help_smartcard1">
+        <item>1. Save Money - Get 10% discount on each journey performed using smart card."\n"</item>
+        <item>2. Save Time - No need to stand in queues for purchasing tokens"\n"</item>
+        <item>3. Gain Freedom - Terminate/extend your journey without preplanning."\n"</item>
+        <item>4. Enjoy Convenience - Board the train till the last minute"\n"</item>
+        <item>5. Be Flexible - Smart Card is Transferable"\n"</item>
+        <item>6. No Documentation - needed for smart card"\n"</item>
+        <item>7. Time taken - to issue smart card is same as token"\n"</item>
+        <item>8. Card is - easily transferable and can be used by anyone"\n"</item>
+    </string-array>
+    <string-array name="help_smartcard2">
+        <item>1. Travel Card - Min Value:150Rs. Max Value:1000Rs for frequent travellers"\n"</item>
+        <item>2. Tourist Card - Value Rs 150 for 1 day, Rs 300 for 3 days"\n"</item>
+        <item>3. Facility to check balance - At every station, ticket reading machines
+            can help you check balance in card"\n"</item>
+        <item>4. Available at -  customercare centre at all stations."\n"</item>
+    </string-array>
+    <string-array name="helpline">
+        <item>1. DMRC - 011 155370"\n"</item>
+        <item>2. CISF SECURITY CONTROL ROOM - 011 22185555"\n"</item>
+        <item>3. DELHI POLICE - 100"\n"</item>
+        <item>4. AMBULANCE - 102 "\n"</item>
+        <item>5. FIRE TENDER - 101"\n"</item>
+        <item>6. WOMEN IN DISTRESS - 1091"\n"</item>
+        <item>7. SENIOR CITIZEN - 1291"\n"</item>
+        <item>8. VIGILANCE - 1064"\n"</item>
+        <item>9. PCR - 100"\n"</item>
+        <item>10. EYES AND EARS - 1090"\n"</item>
+        <item>11. TRAFFIC POLICE - 1095/011 258444444"\n"</item>
+        <item>12. MISSING PERSON - 1094"\n"</item>
+        <item>13. SPECIAL CELL(NORTH EAST) - 1093"\n"</item>
+    </string-array>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/values-kn/strings.xml -->
+    <eat-comment/>
+    <string-array name="menu_settings">
+        <item>ಮೆಟ್ರೋ ಸಹಾಯ</item>
+        <item>ಮೆಟ್ರೋ  ನಕ್ಷೆ</item>
+        <item>ಪಾರ್ಕಿಂಗ್ ದರಗಳು</item>
+        <item>ಬಗ್ಗೆ</item>
+        <item>ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ</item>
+        <item>ನಮ್ಮನ್ನು ಗೂಗ್ಲೆ ನಲ್ಲಿ ಲೈಕ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="nearby_places">
+        <item>ಹತ್ತಿರದ ಸ್ಥಳಗಳಿಗೆ ಆಯ್ಕೆ ಮಾಡಿ</item>
+        <item>ಕೆಫೆ</item>
+        <item>ಆಸ್ಪತ್ರೆಗಳು</item>
+        <item>ಭೋಜನಾಲಯ</item>
+    </string-array>
+    <string name="Start">ಪ್ರಾರಂಭಿಸಲು ಟ್ಯಾಪ್  ಮಾಡಿ</string>
+    <string name="about">ಬಗ್ಗೆ</string>
+    <string name="about_header">ನಮ್ಮ ಬಗ್ಗೆ</string>
+    <string name="about_sum">ನಮ್ಮ ಜೊತೆ ಮಾತಾಡಿ</string>
+    <string name="app ">ಅಪ್ಲಿಕೇಶನ್</string>
+    <string name="app_name">ಡೆಳ್‌ಹಿ ಮೆಟ್ರೋ ಮಾರ್ಗದರ್ಶಿ</string>
+    <string name="blue">ನೀಲಿ</string>
+    <string name="cd">ಗಮ್ಯಸ್ಥಾನವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="changehere">ಇಲ್ಲಿ ಬದಲಾಯಿಸಿ</string>
+    <string name="choose_destination_station">ಗಮ್ಯಸ್ಥಾನ ನಿಲ್ದಾಣ ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="choose_source_station">ಮೂಲ ನಿಲ್ದಾಣವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="cs">ಮೂಲವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="daily_more_than_12_hrs">ದಿನ 12 ಗಂಟೆ ಕಿಂತ ಹೆಚ್ಚು</string>
+    <string name="daily_night_extra">ದಿನ ರಾತ್ರಿ ಹೆಚ್ಚುವರಿ</string>
+    <string name="daily_upto_12_hrs">ದಿನ 12 ಗಂಟೆಗಳ ವರೆಗೆ </string>
+    <string name="daily_upto_6_hrs"> ದಿನ 6 ಗಂಟೆಗಳ ವರೆಗೆ  </string>
+    <string name="dedicated1">ಈ ಅಪ್ಲಿಕೇಶನ್  ನಮ್ಮ ದೇವರು, ನಮ್ಮ ತಂದೆ-ತಾಯಿ ಮತ್ತು ನಮ್ಮ ಮಿತ್ರರಿಗೆ ಸಮರ್ಪಿಸಲಾಗಿದೆ.\nದೆಹಲಿ ಮೆಟ್ರೋ ಡೇಟಾಬೇಸ್ ಅನುಗುಣವಾಗಿ ಡೇಟಾ ಇಡಲು ನಾವು ನಮ್ಮ ಅತ್ಯುತಮವಾದ ಪ್ರಯತ್ನವನ್ನು ಮದ್ಡಿದ್ದೇವೆ.\n ಪರಾಮರ್ಶೆಗಾಗಿ ನಾವು ಆಯ್ಕೆ ಮಾಡ್ದಿದೇವೆ:</string>
+    <string name="dedicated2">ಸಲಹೆಗಳು ಅಥವಾ ಪ್ರತಿಕ್ರಿಯೆಗೆ ನಮಗೆ ಇಲ್ಲಿ ಮೇಲ್ ಮಾಡಿ:</string>
+    <string name="destination_station">ಗಮ್ಯಸ್ಥಾನವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="developer">ಡೆವಲಪರ್</string>
+    <string name="enter_station_hint">ನಿಲ್ದಾಣದ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="fare_10">10</string>
+    <string name="fare_12">12</string>
+    <string name="fare_15">15</string>
+    <string name="fare_2">2</string>
+    <string name="fare_25">25</string>
+    <string name="fare_3">3</string>
+    <string name="fare_30">30</string>
+    <string name="fare_300">300</string>
+    <string name="fare_4">4</string>
+    <string name="fare_5">5</string>
+    <string name="fare_625">625</string>
+    <string name="fare_8">8</string>
+    <string name="fare_details">ಶುಲ್ಕ ವಿವರಗಳು</string>
+    <string name="fare_label">ಕಾರು , ಬೈಕ್ ಮತ್ತು ಸೈಕಲ್ ಬಾಡಿಗೆ  Rs.</string>
+    <string name="fare_rs_0">ಸಾಧಾರಣ ಶುಲ್ಕ:ರೂ 0</string>
+    <string name="first">ಮೊದಲ</string>
+    <string name="first_time">ಮೊದಲ ರೈಲು:NA</string>
+    <string name="first_time_code">ಮೊದಲ ರೈಲು</string>
+    <string name="general">ಜನರಲ್</string>
+    <string name="green">ಹಸಿರು</string>
+    <string name="grey">ಬೂದು</string>
+    <string name="hello_world">ಹಲೋ ವಿಶ್ವ!</string>
+    <string name="help">ಮೆಟ್ರೋ ಸಹಾಯ</string>
+    <string name="helpheader0">ಸ್ಮಾರ್ಟ್ ಟ್ರಾವೆಲರ್ ಆಗಿ!</string>
+    <string name="helpheader1"><html><b><u>5 ಸ್ಮಾರ್ಟ್ ಕರ್ಣಗಳು ಒಂದು ಸ್ಮಾರ್ಟ್ ಕಾರ್ಡ್ ಪಡೆಯಲು!!</u></b></html>"\n"</string>
+    <string name="helpheader2"><html><b><u>ನಿಮ್ಮ ಸ್ಮಾರ್ಟ್ ಕಾರ್ಡ್ ಆಯ್ಕೆ ಮಾಡಿ!!</u></b></html>"\n"</string>
+    <string name="helpheader3"><html><b><u>ಸಹಾಯವಾಣಿ ಸಂಖ್ಯೆಗಳು!!</u></b></html>"\n"</string>
+    <string name="indigo">indigo</string>
+    <string name="journeyTime">ಪ್ರಯಾಣದ ಸಮಯ: %1s (approx.)</string>
+    <string name="journey_header">ಪ್ರಯಾಣದ ವಿವರಗಳು:</string>
+    <string name="junction">(ಜಂಕ್ಷನ್)</string>
+    <string name="keliyebadle">Change for</string>
+    <string name="langchange">ಭಾಷೆಯನ್ನು ಬದಲಾಯಿಸಿ</string>
+    <string name="language">ಭಾಷೆಯನ್ನು ಬದಲಾಯಿಸಿ</string>
+    <string name="language_menu">ಭಾಷಾ</string>
+    <string name="last">ಕೊನೆಯ</string>
+    <string name="last_source_station">ಲೈನ್ ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="last_time">ಕೊನೆಯ ರೈಲು:NA</string>
+    <string name="last_time_code">ಕೊನೆಯ ರೈಲು</string>
+    <string name="like_header">Google ಇಷ್ಟ</string>
+    <string name="like_header_sum">ನಮ್ಮನು ಈಸ್ಟ ಪಟ್ತಿದರೆ ಲೈಕ್  ಮಾಡಿ</string>
+    <string name="line">ಗೆರೆ</string>
+    <string name="map">ನಕ್ಷೆ</string>
+    <string name="metro_help">ಮೆಟ್ರೋ ಸಹಾಯ</string>
+    <string name="metro_help_sum">ಮೆಟ್ರೋ ಸಹಾಯ ಗೈಡ್</string>
+    <string name="metro_map">ಮೆಟ್ರೋ ನಕ್ಷೆ</string>
+    <string name="metro_map_sum">ಆಫ್ಲೈನ್ ದೆಹಲಿ ಮೆಟ್ರೋ ನಕ್ಷೆ</string>
+    <string name="metro_parking">ಮೆಟ್ರೋ ನಿಲ್ದಾಣ ದರಗಳು</string>
+    <string name="metro_parking_sum">ಜನರಲ್ ಪಾರ್ಕಿಂಗ್ ದರಗಳು ಪಟ್ಟಿ</string>
+    <string name="monthly">ಮಾಸಿಕ</string>
+    <string name="monthly_night_extra">ಮಾಸಿಕ ರಾತ್ರಿ ಹೆಚ್ಚುವರಿ</string>
+    <string name="noOfInterchange">ಅದಲು ಬದಲು: %1s</string>
+    <string name="noOfStations">ನಿಲ್ದಾಣಗಳು: %1s</string>
+    <string name="normalfare">ಸಾಧಾರಣ ಶುಲ್ಕ: ರೂ %1s</string>
+    <string name="orange">ಕಿತ್ತಳೆ ಬಣ್ಣ</string>
+    <string name="parking">ಪಾರ್ಕಿಂಗ್ ದರಗಳು</string>
+    <string name="prepend">ಸೇರಿಸಿ</string>
+    <string name="press_start">ಬಳಸಲು ಸ್ಟಾರ್ಟ್ ಬಟನ್ ಒತ್ತಿ</string>
+    <string name="programmer">ಸೌರಭ್, ಶೋಭಿತ್, ಸಚಿನ್</string>
+    <string name="red">ಕೆಂಪು</string>
+    <string name="reference">www.delhimetrorail.com</string>
+    <string name="release">ಬಿಡುಗಡೆ ಆವೃತ್ತಿ:</string>
+    <string name="route_details">ಮಾರ್ಗದ ವಿವರಗಳು</string>
+    <string name="sde">ಮೂಲ ಮತ್ತು ಗಮ್ಯಸ್ಥಾನ ಖಾಲಿ</string>
+    <string name="sds">ಮೂಲ ಮತ್ತು ಗಮ್ಯಸ್ಥಾನ  ಒಂದೇ ಇವೆ</string>
+    <string name="search">ಸ್ಟೇಷನ್ ಹುಡುಕಿ</string>
+    <string name="settings">ಸೆಟ್ಟಿಂಗ್ಗಳು</string>
+    <string name="show_route">ಮಾರ್ಗ ತೋರಿಸಿ</string>
+    <string name="smartcardFare">ಸ್ಮಾರ್ಟ್ ಕಾರ್ಡ್ ಶುಲ್ಕ:ರೂ 0</string>
+    <string name="smartfare">ಸ್ಮಾರ್ಟ್ ಕಾರ್ಡ್ ಶುಲ್ಕ: ರೂ %1s</string>
+    <string name="smartnote_fare">*ಗಮನಿಸಿ: 10% ರಿಯಾಯಿತಿ ಪಡೆಯಲು ಸ್ಮಾರ್ಟ್ ಕಾರ್ಡ್ ಬಳಸಿ.</string>
+    <string name="source_station">ಮೂಲವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="suggestion">techdomain0502@gmail.com</string>
+    <string name="switch_button">ಸ್ಟೇಷನ್ಸ್ ಬದಲಿಸಿ</string>
+    <string name="tab_fare">ಶುಲ್ಕ</string>
+    <string name="tab_lasttrain">ಸಮಯ</string>
+    <string name="tab_route">ಮಾರ್ಗ</string>
+    <string name="time_details">ಪ್ರಥಮ ಲಾಸ್ಟ್ ಟ್ರೇನ್ ವಿವರಗಳು</string>
+    <string name="title_activity_main_tab">MainTabActivity</string>
+    <string name="to">ಯಿಂದ</string>
+    <string name="update_header">ಅಪ್ಲಿಕೇಶನ್ ಅಪ್ಡೇಟ್</string>
+    <string name="update_sum">ನಿಮ್ಮನ್ನು ಅಪ್‌ಡೇಟ್ ಆಗಿ ಇದೊಟ್ತೆ</string>
+    <string name="version">1.1.20150627</string>
+    <string name="violet">ನೇರಳೆ ಬಣ್ಣ</string>
+    <string name="welcome">ಸ್ವಾಗತ</string>
+    <string name="yellow">ಹಳದಿ</string>
+</resources>

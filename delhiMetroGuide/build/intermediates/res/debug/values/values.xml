@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="help_smartcard0">
+        <item>1. How to use Smart Card - Entry/Exit:At entry, hold your card close to the machine for gates to
+            open. Do the same at destination station for exit"\n"</item>
+        <item>2. Entry/Exit Mismatch - Every entry into the station must be followed by an exit from the destination
+            station. In case of mismatch, charges will be collected as per DMRC rules."\n"</item>
+        <item>3. Maximum period of stay - The maximum stay permissible in the Metro station is 170 minutes if entry/exit is 
+            from different stations.Within the same station, it is 20 minutes. In case of overstaying
+            beyond permissible time(except tourist card) Penalty of Rs 10 per hour subject to maximum
+            of Rs 50 will be charged."\n"</item>
+        <item>4. Keep the card safe - Please donot damage the Smart Card. No Refund
+            is gauranteed on damaged cards."\n"</item>
+    </string-array>
+    <string-array name="help_smartcard1">
+        <item>1. Save Money - Get 10% discount on each journey performed using smart card."\n"</item>
+        <item>2. Save Time - No need to stand in queues for purchasing tokens"\n"</item>
+        <item>3. Gain Freedom - Terminate/extend your journey without preplanning."\n"</item>
+        <item>4. Enjoy Convenience - Board the train till the last minute"\n"</item>
+        <item>5. Be Flexible - Smart Card is Transferable"\n"</item>
+        <item>6. No Documentation - needed for smart card"\n"</item>
+        <item>7. Time taken - to issue smart card is same as token"\n"</item>
+        <item>8. Card is - easily transferable and can be used by anyone"\n"</item>
+    </string-array>
+    <string-array name="help_smartcard2">
+        <item>1. Travel Card - Min Value:150Rs. Max Value:1000Rs for frequent travellers"\n"</item>
+        <item>2. Tourist Card - Value Rs 150 for 1 day, Rs 300 for 3 days"\n"</item>
+        <item>3. Facility to check balance - At every station, ticket reading machines
+            can help you check balance in card"\n"</item>
+        <item>4. Available at -  customercare centre at all stations."\n"</item>
+    </string-array>
+    <string-array name="helpline">
+        <item>1. DMRC - 011 155370"\n"</item>
+        <item>2. CISF SECURITY CONTROL ROOM - 011 22185555"\n"</item>
+        <item>3. DELHI POLICE - 100"\n"</item>
+        <item>4. AMBULANCE - 102 "\n"</item>
+        <item>5. FIRE TENDER - 101"\n"</item>
+        <item>6. WOMEN IN DISTRESS - 1091"\n"</item>
+        <item>7. SENIOR CITIZEN - 1291"\n"</item>
+        <item>8. VIGILANCE - 1064"\n"</item>
+        <item>9. PCR - 100"\n"</item>
+        <item>10. EYES AND EARS - 1090"\n"</item>
+        <item>11. TRAFFIC POLICE - 1095/011 258444444"\n"</item>
+        <item>12. MISSING PERSON - 1094"\n"</item>
+        <item>13. SPECIAL CELL(NORTH EAST) - 1093"\n"</item>
+    </string-array>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="language_settings">
+        <item>English</item>
+        <item>हिंदी</item>
+        <item>मराठी</item>
+		<item>ಕನ್ನಡ</item>
+        <!--
+        <item>తెలుగు</item>
+        <item>tamil</item>
+        
+       
+        <item>malayalam</item>
+        -->
+    </string-array>
+    <string-array name="menu_settings">
+        <item>Metro Help</item>
+        <item>Metro Map</item>
+        <item>Parking Rates</item>
+        <item>About</item>
+        <item>Check for Updates</item>
+        <item>Like us on Google</item>
+    </string-array>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="monument">
+        <item>India Gate</item>
+        <item>Qutub Minar</item>
+        <item>Lotus Temple</item>
+        <item>Humayun Tomb</item>
+        <item>Jantar Mantar</item>
+        <item>Red Fort</item>
+        <item>Akshardham</item>
+        <item>Lodi Gardens</item>
+        <item>Gurudwara Bangla Sahib</item>
+        <item>Rashtrapati Bhavan</item>
+        <item>Jama Masjid</item>
+        <item>Chandni Chowk</item>
+        <item>Gurudwara Sis Ganj</item>
+        <item>National Museum , New Delhi</item>
+        <item>Purana Qila</item>
+        <item>Gandhi Smriti</item>
+        <item>Tughlaqabad</item>
+        <item>Raj Ghat</item>
+        <item>ISKCON Temple Delhi</item>
+        <item>LaxmiNarayan Temple</item>
+        <item>Garden of Five Senses</item>
+        <item>Nizamuddin Dargah</item>
+        <item>National Zoological Park, Delhi</item>
+        <item>National Rail Museum, Delhi</item>
+        <item>Agrasen ki Baoli</item>
+        <item>National Sciene Centre ,Delhi</item>
+        <item>Cathedral Church of Redemption</item>
+        <item>YogMaya Temple</item>
+        <item>Khirki Masjid</item>
+        <item>Kalka Mandir, Delhi</item>
+        <item>Nehru memorial museum and library</item>
+        <item>Iron Pillar of Delhi</item>
+        <item>RangMahal</item>
+        <item>Nehru Planetarium</item>
+        <item>Sri Digambar Jain Lal Mandir</item>
+        <item>St. James\' Church</item>
+        <item>Shanti Vana,</item>
+    </string-array>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="nearby_places">
+        <item>Choose nearby places type</item>
+        <item>Cafe</item>
+        <item>Hospitals</item>
+        <item>Restaurant</item>
+    </string-array>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="shop">
+        <item>Dilli Haat\nOpening Hours:Daily from 11am to 10 pm\nWhat to buy:Indian Handicrafts and artifacts</item>
+        <item>Janpath\nOpening Hours:Daily\nWhat to buy:Handicrafts, shoes, paintings, brassware and cheap jewellery</item>
+        <item>Khan market\nOpening Hours:Daily except sundays\nWhat to buy:Books,music,tailored clothes, Ayurvedic food</item>
+        <item>Paharganj\nOpening Hours:Daily until 9pm\nWhat to buy:Clothes,shoes ,jewely,bookds,music, incense</item>
+        <item>Sarojini Nagar\nOpening Hours:Daily except Mnondays\nWhat to buy:Designer clothes, fashion accessories, shoes</item>
+        <item>Chandni Chowk\nOpening Hours:Daily except sundays\nWhat to buy:Fabrics, jewellery , electronic goods</item>
+        <item>Lajpat Nagar(Central Market)\nOpening Hours:Daily except Mondays\nWhat to buy:Indian clothes, shoes, bags, home furnishings</item>
+        <item>SunderNagark\nOpening Hours:Daily except sundays\nWhat to buy:Silver Jewellery, art, textiles, carpets and antiques.</item>
+    </string-array>
+    <string-array name="stoplist_en">
+        <item>AIIMS</item>
+        <item>Adarsh Nagar</item>
+        <item>Akshardham</item>
+        <item>Anand Vihar</item>
+        <item>Arjangarh</item>
+        <item>Ashok Park Main</item>
+        <item>Azadpur</item>
+        <item>Badarpur</item>
+        <item>Barakhamba</item>
+        <item>Botanical Garden</item>
+        <item>Central Secretariat</item>
+        <item>Chandni Chowk</item>
+        <item>Chattarpur</item>
+        <item>Chawri Bazar</item>
+        <item>Civil Lines</item>
+        <item>Dilshad Garden</item>
+        <item>Dwarka</item>
+        <item>Dwarka Mor</item>
+        <item>Dwarka Sec-10</item>
+        <item>Dwarka Sec-11</item>
+        <item>Dwarka Sec-12</item>
+        <item>Dwarka Sec-13</item>
+        <item>Dwarka Sec-14</item>
+        <item>Dwarka Sec-21</item>
+        <item>Dwarka Sec-8</item>
+        <item>Dwarka Sec-9</item>
+        <item>Ghitorni</item>
+        <item>Golf Course</item>
+        <item>Govindpuri</item>
+        <item>Green Park</item>
+        <item>GTB Nagar</item>
+        <item>Gurudronacharya</item>
+        <item>Hauz Khas</item>
+        <item>Huda City Centre</item>
+        <item>IFFCO Chowk</item>
+        <item>INA</item>
+        <item>Inderlok</item>
+        <item>Indraprastha</item>
+        <item>Jahangirpuri</item>
+        <item>Janak Puri East</item>
+        <item>Janak Puri West</item>
+        <item>Jangpura</item>
+        <item>Janpath</item>
+        <item>Jasola</item>
+        <item>Jawaharlal Nehru Stadium</item>
+        <item>Jhandewalan</item>
+        <item>Jhilmil</item>
+        <item>Jorbagh</item>
+        <item>Kailash Colony</item>
+        <item>Kalkaji Mandir</item>
+        <item>Kanhaiya Nagar</item>
+        <item>Karkarduma</item>
+        <item>Karol Bagh</item>
+        <item>Kashmere Gate</item>
+        <item>Kaushambi</item>
+        <item>Keshav Puram</item>
+        <item>Khan Market</item>
+        <item>Kirti Nagar</item>
+        <item>Kohat Enclave</item>
+        <item>Lajpat Nagar</item>
+        <item>Laxmi Nagar</item>
+        <item>MG Road</item>
+        <item>Madipur</item>
+        <item>Malviya Nagar</item>
+        <item>Mandi House</item>
+        <item>Mansarovar Park</item>
+        <item>Mayur Vihar 1</item>
+        <item>Mayur Vihar Ext</item>
+        <item>Model Town</item>
+        <item>Mohan Estate</item>
+        <item>Moolchand</item>
+        <item>Moti Nagar</item>
+        <item>Mundka</item>
+        <item>Nangloi</item>
+        <item>Nangloi Rly Station</item>
+        <item>Nawada</item>
+        <item>Nehru Place</item>
+        <item>Netaji Subash Palace</item>
+        <item>New Ashok Nagar</item>
+        <item>New Delhi</item>
+        <item>Nirman Vihar</item>
+        <item>Noida City Centre</item>
+        <item>Noida Sec-15</item>
+        <item>Noida Sec-16</item>
+        <item>Noida Sec-18</item>
+        <item>Okhla</item>
+        <item>Paschim Vihar(East)</item>
+        <item>Paschim Vihar(West)</item>
+        <item>Patel Chowk</item>
+        <item>Patel Nagar</item>
+        <item>Peeragarhi</item>
+        <item>Pitampura</item>
+        <item>Pragati Maidan</item>
+        <item>Pratap Nagar</item>
+        <item>Preet Vihar</item>
+        <item>Pulbangash</item>
+        <item>Punjabi Bagh</item>
+        <item>Qutab Minar</item>
+        <item>R K Ashram Marg</item>
+        <item>Race Course</item>
+        <item>Rajdhani Park</item>
+        <item>Rajendra Place</item>
+        <item>Rajiv Chowk</item>
+        <item>Rajouri Garden</item>
+        <item>Ramesh Nagar</item>
+        <item>Rithala</item>
+        <item>Rohini East</item>
+        <item>Rohini West</item>
+        <item>Saket</item>
+        <item>Sarita Vihar</item>
+        <item>Satguru Ram Singh Marg</item>
+        <item>Seelampur</item>
+        <item>Shadipur</item>
+        <item>Shahdara</item>
+        <item>Shastri Nagar</item>
+        <item>Shastri Park</item>
+        <item>Shivaji Park</item>
+        <item>Sikandarpur</item>
+        <item>Subash Nagar</item>
+        <item>Sultanpur</item>
+        <item>Surajmal Stadium</item>
+        <item>Tagore Garden</item>
+        <item>Tilak Nagar</item>
+        <item>Tis Hazari</item>
+        <item>Tuglakabad</item>
+        <item>Udyog Bhawan</item>
+        <item>Udyog Nagar</item>
+        <item>Uttam Nagar East</item>
+        <item>Uttam Nagar West</item>
+        <item>Vaishali</item>
+        <item>Vidhan Sabha</item>
+        <item>Vishwavidyalaya</item>
+        <item>Welcome</item>
+        <item>Yamuna Bank</item>
+    </string-array>
+    <string-array name="stoplist_hi">
+        <item>एम्स</item>
+        <item>आदर्श नगर</item>
+        <item>अक्षरधाम</item>
+        <item>आनंद विहार</item>
+        <item>अर्जनगढ़</item>
+        <item>अशोक पार्क मेन</item>
+        <item>आजादपुर</item>
+        <item>बदरपुर</item>
+        <item>बाराखंभा</item>
+        <item>बोटैनिकल गार्डन</item>
+        <item>केंद्रीय सचिवालय</item>
+        <item>चांदनी चौक</item>
+        <item>छतरपुर</item>
+        <item>चावड़ी बाजार</item>
+        <item>सिविल लाइन्स</item>
+        <item>दिलशाद गार्डन</item>
+        <item>द्वारका</item>
+        <item>द्वारका मोड़</item>
+        <item>द्वारका Sec-10</item>
+        <item>द्वारका Sec-11</item>
+        <item>द्वारका Sec-12</item>
+        <item>द्वारका Sec-13</item>
+        <item>द्वारका Sec-14</item>
+        <item>द्वारका Sec-21</item>
+        <item>द्वारका Sec-8</item>
+        <item>द्वारका Sec-9</item>
+        <item>घिटोरनी</item>
+        <item>गोल्फ कोर्स</item>
+        <item>गोविंदपुरी</item>
+        <item>ग्रीन पार्क</item>
+        <item>जी टी बी नगर</item>
+        <item>गुरुद्रोणाचार्य</item>
+        <item>हौज़ खास</item>
+        <item>हुडा सिटी सेंटर</item>
+        <item>इफ्फको चौक</item>
+        <item>आईएनए</item>
+        <item>इंद्रलोक</item>
+        <item>इंद्रप्रस्थ</item>
+        <item>जहांगीरपुरी</item>
+        <item>जनक पुरी पूर्व</item>
+        <item>जनक पुरी पश्चिम</item>
+        <item>जंगपुरा</item>
+        <item>जनपथ</item>
+        <item>जसोला</item>
+        <item>जवाहर लाल नेहरू स्टेडियम</item>
+        <item>झंडेवालान</item>
+        <item>झिलमिल</item>
+        <item>जोरबाग</item>
+        <item>कैलाश कॉलोनी</item>
+        <item>कालकाजी मंदिर</item>
+        <item>कन्हैया नगर</item>
+        <item>करकरदुमा</item>
+        <item>करोल बाग</item>
+        <item>कश्मीरी गेट</item>
+        <item>कौशाम्बी</item>
+        <item>केशव पुरम</item>
+        <item>खान मार्केट</item>
+        <item>कीर्ति नगर</item>
+        <item>कोहाट एन्क्लेव</item>
+        <item>लाजपत नगर</item>
+        <item>लक्ष्मी नगर</item>
+        <item>एमजी रोड</item>
+        <item>मादीपुर</item>
+        <item>मालवीय नगर</item>
+        <item>मंडी हाउस</item>
+        <item>मानसरोवर पार्क</item>
+        <item>मयूर विहार 1</item>
+        <item>मयूर विहार एक्सटेंशन</item>
+        <item>मॉडल टाउन</item>
+        <item>मोहन एस्टेट</item>
+        <item>मूलचंद</item>
+        <item>मोती नगर</item>
+        <item>मुंडका</item>
+        <item>नांगलोई</item>
+        <item>नांगलोई रेलवे स्टेशन</item>
+        <item>नवादा</item>
+        <item>नेहरू प्लेस</item>
+        <item>नेताजी सुभाष पैलेस</item>
+        <item>न्यू अशोक नगर</item>
+        <item>नई दिल्ली</item>
+        <item>निर्माण विहार</item>
+        <item>नोएडा सिटी सेंटर</item>
+        <item>नोएडा Sec-15</item>
+        <item>नोएडा Sec-16</item>
+        <item>नोएडा Sec-18</item>
+        <item>ओखला</item>
+        <item>पश्चिम विहार(पूर्व)</item>
+        <item>पश्चिम विहार(पश्चिम)</item>
+        <item>पटेल चौक</item>
+        <item>पटेल नगर</item>
+        <item>पीरागढ़ी</item>
+        <item>पीतमपुरा</item>
+        <item>प्रगति मैदान</item>
+        <item>प्रताप नगर</item>
+        <item>प्रीत विहार</item>
+        <item>पुलबंगश</item>
+        <item>पंजाबी बाग</item>
+        <item>कुतुब मीनार</item>
+        <item>आर के आश्रम मार्ग</item>
+        <item>रेसकोर्स</item>
+        <item>राजधानी पार्क</item>
+        <item>राजेंद्र प्लेस</item>
+        <item>राजीव चौक</item>
+        <item>राजौरी गार्डन</item>
+        <item>रमेश नगर</item>
+        <item>रिठाला</item>
+        <item>रोहिणी ईस्ट</item>
+        <item>रोहिणी पश्चिम</item>
+        <item>साकेत</item>
+        <item>सरिता विहार</item>
+        <item>सतगुरु राम सिंह मार्ग</item>
+        <item>सीलमपुर</item>
+        <item>शादीपुर</item>
+        <item>शाहदरा</item>
+        <item>शास्त्री नगर</item>
+        <item>शास्त्री पार्क</item>
+        <item>शिवाजी पार्क</item>
+        <item>सिकन्दरपुर</item>
+        <item>सुभाष नगर</item>
+        <item>सुल्तानपुर</item>
+        <item>सूरजमल स्टेडियम</item>
+        <item>टैगोर गार्डन</item>
+        <item>तिलक नगर</item>
+        <item>तीस हजारी</item>
+        <item>तुगलकाबाद</item>
+        <item>उद्योग भवन</item>
+        <item>उद्योग नगर</item>
+        <item>उत्तम नगर ईस्ट</item>
+        <item>उत्तम नगर वेस्ट</item>
+        <item>वैशाली</item>
+        <item>विधान सभा</item>
+        <item>विश्वविद्यालय</item>
+        <item>वेलकम</item>
+        <item>यमुना बैंक</item>
+    </string-array>
+    <string-array name="stoplist_kn">
+        <item>ಏಮ್ಸ್</item>
+        <item>ಆದರ್ಶ್ ನಾಗರ್</item>
+        <item>ಅಕ್ಷರಧಾಮ</item>
+        <item>ಆನಂದ್ ವಿಹಾರ್</item>
+        <item>ಅರ್ಜಂಗಾರ್ಹ್</item>
+        <item>ಅಶೋಕ್ ಪಾರ್ಕ್ ಮೇನ್</item>
+        <item>ಆಜ಼ದ್‌ಪುರ್</item>
+        <item>ಬದರ್ಪೂರ್</item>
+        <item>ಬರಾಖಂಬ</item>
+        <item>ಬಟ್ಯಾನಿಕಲ್ ಗಾರ್ಡನ್</item>
+        <item>ಕೇಂದ್ರ ಸಚಿವಾಲಯ</item>
+        <item>चಚಂಡ್ನಿ ಚೌಕ್</item>
+        <item>ಚತ್ತರ್‌ಪೂರ್</item>
+        <item>ಚಾವ್ರಿ ಬಜ಼ಾರ್</item>
+        <item>ಸಿವಿಲ್ ಲೈನ್ಸ್</item>
+        <item>ದಿಲ್ಶಾದ್ ಗಾರ್ಡನ್</item>
+        <item>ದ್ವಾರಕಾ</item>
+        <item>ದ್ವಾರಕಾ ತಿರುವು</item>
+        <item>ದ್ವಾರಕಾ Sec-10</item>
+        <item>ದ್ವಾರಕಾ Sec-11</item>
+        <item>ದ್ವಾರಕಾ Sec-12</item>
+        <item>ದ್ವಾರಕಾ Sec-13</item>
+        <item>ದ್ವಾರಕಾ Sec-14</item>
+        <item>ದ್ವಾರಕಾ Sec-21</item>
+        <item>ದ್ವಾರಕಾ Sec-8</item>
+        <item>ದ್ವಾರಕಾ Sec-9</item>
+        <item>ಘೀಟೋರ್ನಿ</item>
+        <item>ಗೋಲ್ಫ್ ಕೋರ್ಸ್</item>
+        <item>ಗೋವಿಂಡ್ಪುರಿ</item>
+        <item>गಗ್ರೀನ್ ಪಾರ್ಕ್</item>
+        <item>ಜಿ ಟಿ ಬಿ ನಗರ</item>
+        <item>ಗುರುದ್ರೋಣಾಚಾರ್ಯ</item>
+        <item>ಹೌಜ಼್ ಖಾಸ್</item>
+        <item>ಹೂಡಾ ಸಿಟೀ ಸೆಂಟರ್</item>
+        <item>ಇಫ್ಫ್ಕೋ ಚೌಕ್ </item>
+        <item>ಐಎನ್ಎ</item>
+        <item>ಇಂದೆರ್ಲೋಕ್</item>
+        <item>ಇಂದ್ರಪ್ರಸ್ಥ</item>
+        <item>ಜಹಾಂಗಿರ್ಪುರಿ</item>
+        <item>ಜನಕ್ ಪುರಿ ಪೂರ್ವ</item>
+        <item>ಜನಕ್ ಪುರಿ ಪಶ್ಚಿಮ</item>
+        <item>ಜಂಗ್ಪುರ</item>
+        <item>ಜಣಪತ್</item>
+        <item>ಜಸೊಳ</item>
+        <item>ಜವಾಹರ್ ಲಾಲ್ ನೆಹರು ಸ್ಟೇಡಿಯಮ್</item>
+        <item>ಝಂಡೆವಳಂ</item>
+        <item>ಝೀಲ್ಮಿಲ್</item>
+        <item>ಜೊರ್ಬಾಘ್</item>
+        <item>ಕೈಲಾಶ್ ಕಾಲೊನೀ</item>
+        <item>ಕಲ್ಕಾಜಿ ಮಂದಿರ್</item>
+        <item>ಕನ್ಹೈಯ ನಗರ್</item>
+        <item>ಕರ್ಕಾದುಮ</item>
+        <item>ಕ್ಯಾರೊಲ್ ಬಾಘ್</item>
+        <item>ಕಾಶ್ಮೇರಿ ಗೇಟ್</item>
+        <item>ಕೌಶಾಂಬಿ</item>
+        <item>ಕೇಶವ ಪುರಮ್</item>
+        <item>ಖಾನ್ ಮಾರ್ಕೆಟ್</item>
+        <item>ಕೀರ್ತಿ ನಗರ್</item>
+        <item>ಕೋಹಟ್ ಎಂಕ್ಲೇವ್</item>
+        <item>ಲಜಪತ್ ನಗರ್</item>
+        <item>ಲಕ್ಷ್ಮೀ ನಗರ್</item>
+        <item>ಎಂಜಿ ರೋಡ್</item>
+        <item>ಮಾದಿಪುರ್</item>
+        <item>ಮಾಳವೀಯ ನಗರ್</item>
+        <item>ಮಂದಿ ಹೌಸ್</item>
+        <item>ಮಾನ್ಸಾರೋವರ್ ಪಾರ್ಕ್</item>
+        <item>ಮಯೂರ್ ವಿಹಾರ್ 1</item>
+        <item>ಮಯೂರ್ ವಿಹಾರ್ ಎಕ್ಸ್‌ಟೆನ್ಶನ್</item>
+        <item>ಮಾಡೆಲ್ ಟೌನ್</item>
+        <item>ಮೋಹನ್ ಎಸ್ಟೇಟ್</item>
+        <item>ಮೂಲ್ಚಂಡ್</item>
+        <item>ಮೋತಿ ನಗರ್</item>
+        <item>ಮುಂಡ್ಕ</item>
+        <item>ನಂಗ್ಲೋಇ</item>
+        <item>ನಂಗ್ಲೋಇ ರೇಲ್‌ವೇ ಸ್ಟೇಶನ್</item>
+        <item>ನವಾದ</item>
+        <item>ನೆಹ್ರೂ ಪ್ಲೇಸ್</item>
+        <item>ನೇತಾಜಿ ಸುಭಾಷ್  ಪ್ಯಾಲೇಸ್</item>
+        <item>नನ್ಯೂ ಅಶೋಕ್ ನಗರ್</item>
+        <item>ನ್ಯೂ ದಹಲಿ</item>
+        <item>ನಿರ್ಮಾಣ್ ವಿಹಾರ್</item>
+        <item>ನೋಯ್ಡಾ ಸಿಟಿ ಸೆಂಟರ್</item>
+        <item>ನೋಯ್ಡಾ Sec-15</item>
+        <item>ನೋಯ್ಡಾ Sec-16</item>
+        <item>ನೋಯ್ಡಾ Sec-18</item>
+        <item>ಒಖ್ಲಾ</item>
+        <item>ಪಶ್ಚಿಮ್ ವಿಹಾರ್(ಪೂರ್ವ)</item>
+        <item>ಪಶ್ಚಿಮ್ ವಿಹಾರ್(ಪಶ್ಚಿಮ)</item>
+        <item>ಪಟೇಲ್ ಚೌಕ್</item>
+        <item>ಪಟೇಲ್  ನಗರ್</item>
+        <item>ಪೀರಗಾರ್ಹಿ</item>
+        <item>ಪೀತಾಂಪುರ</item>
+        <item>ಪ್ರಗತಿ ಮೈದಾನ</item>
+        <item>ಪ್ರತಾಪ್ ನಗರ್</item>
+        <item>ಪ್ರೀತ್ ವಿಹಾರ್</item>
+        <item>ಪುಲ್ಬಂಗಷ್</item>
+        <item>ಪಂಜಾಬಿ ಬಾಗ್</item>
+        <item>ಕುತುಬ್ ಮಿನಾರ್</item>
+        <item>ಆರ್ ಕೆ ಆಶ್ರಮ ಮಾರ್ಗ</item>
+        <item>ರೇಸ್ ಕೋರ್ಸ್</item>
+        <item>ರಾಜಧಾನಿ ಪಾರ್ಕ್</item>
+        <item>ರಾಜೇಂದ್ರ ಪ್ಲೇಸ್</item>
+        <item>रರಾಜೀವ್ ಚೌಕ್</item>
+        <item>ರಾಜೌರಿ ಗಾರ್ಡನ್</item>
+        <item>ರಮೇಶ್ ನಗರ್</item>
+        <item>ರಿಟಲ</item>
+        <item>ರೋಹಿಣಿ ಪೂರ್ವ</item>
+        <item>ರೋಹಿಣಿ ಪಶ್ಚಿಮ</item>
+        <item>ಸಾಕೇತ್</item>
+        <item>ಸರಿತಾ ವಿಹಾರ್</item>
+        <item>ಸತ್ಗುರು ರಾಮ್ ಸಿಂಗ್ ಮಾರ್ಗ್</item>
+        <item>ಸೀಳಂಪುರ್</item>
+        <item>ಷದಿಪುರ್</item>
+        <item>ಶಾಹ್ದಾರ</item>
+        <item>ಶಾಸ್ತ್ರಿ ನಗರ</item>
+        <item>ಶಾಸ್ತ್ರಿ ಪಾರ್ಕ್</item>
+        <item>ಶಿವಾಜಿ ಪಾರ್ಕ್</item>
+        <item>ಸಿಕಂದರ್ಪೂರ್</item>
+        <item>ಸುಬಷ್ ನಗರ್</item>
+        <item>ಸುಲ್ತಾನ್ಪುರ್</item>
+        <item>ಸೂರಜ್ಮಲ್ ಸ್ಟೇಡಿಯಮ್</item>
+        <item>ಟ್ಯಾಗೋರ್ ಗಾರ್ಡನ್</item>
+        <item>ತಿಲಕ್ ನಗರ</item>
+        <item>ತೀಸ್ ಹಜ಼ರಿ</item>
+        <item>ತುಗ್ಲಕಾಬಾದ್</item>
+        <item>ಉದ್ಯೋಗ್ ಭವನ್</item>
+        <item>ಉದ್ಯೋಗ್ ನಗರ್</item>
+        <item>ಉತ್ತಮ್ ನಗರ್ ಈಸ್ಟ್</item>
+        <item>ಉತ್ತಮ್ ನಗರ್ ವೆಸ್ಟ್</item>
+        <item>ವೈಶಾಲಿ</item>
+        <item>ವಿಧಾನಸಭೆ</item>
+        <item>ವಿಶ್ವವಿದ್ಯಾಲಯ</item>
+        <item>ಸ್ವಾಗತ</item>
+        <item>ಯಮುನಾ ಬ್ಯಾಂಕ್</item>
+    </string-array>
+    <string-array name="stoplist_ml">
+        <item>AIIMS</item>
+        <item>Adarsh Nagar</item>
+        <item>Akshardham</item>
+        <item>Anand Vihar</item>
+        <item>Arjangarh</item>
+        <item>Ashok Park Main</item>
+        <item>Azadpur</item>
+        <item>Badarpur</item>
+        <item>Barakhamba</item>
+        <item>Botanical Garden</item>
+        <item>Central Secretariat</item>
+        <item>Chandni Chowk</item>
+        <item>Chattarpur</item>
+        <item>Chawri Bazar</item>
+        <item>Civil Lines</item>
+        <item>Dilshad Garden</item>
+        <item>Dwarka</item>
+        <item>Dwarka Mor</item>
+        <item>Dwarka Sec-10</item>
+        <item>Dwarka Sec-11</item>
+        <item>Dwarka Sec-12</item>
+        <item>Dwarka Sec-13</item>
+        <item>Dwarka Sec-14</item>
+        <item>Dwarka Sec-21</item>
+        <item>Dwarka Sec-8</item>
+        <item>Dwarka Sec-9</item>
+        <item>Ghitorni</item>
+        <item>Golf Course</item>
+        <item>Govindpuri</item>
+        <item>Green Park</item>
+        <item>GTB Nagar</item>
+        <item>Gurudronacharya</item>
+        <item>Hauz Khas</item>
+        <item>Huda City Centre</item>
+        <item>IFFCO Chowk</item>
+        <item>INA</item>
+        <item>Inderlok</item>
+        <item>Indraprastha</item>
+        <item>Jahangirpuri</item>
+        <item>Janak Puri East</item>
+        <item>Janak Puri West</item>
+        <item>Jangpura</item>
+        <item>Janpath</item>
+        <item>Jasola</item>
+        <item>Jawaharlal Nehru Stadium</item>
+        <item>Jhandewalan</item>
+        <item>Jhilmil</item>
+        <item>Jorbagh</item>
+        <item>Kailash Colony</item>
+        <item>Kalkaji Mandir</item>
+        <item>Kanhaiya Nagar</item>
+        <item>Karkarduma</item>
+        <item>Karol Bagh</item>
+        <item>Kashmere Gate</item>
+        <item>Kaushambi</item>
+        <item>Keshav Puram</item>
+        <item>Khan Market</item>
+        <item>Kirti Nagar</item>
+        <item>Kohat Enclave</item>
+        <item>Lajpat Nagar</item>
+        <item>Laxmi Nagar</item>
+        <item>MG Road</item>
+        <item>Madipur</item>
+        <item>Malviya Nagar</item>
+        <item>Mandi House</item>
+        <item>Mansarovar Park</item>
+        <item>Mayur Vihar 1</item>
+        <item>Mayur Vihar Ext</item>
+        <item>Model Town</item>
+        <item>Mohan Estate</item>
+        <item>Moolchand</item>
+        <item>Moti Nagar</item>
+        <item>Mundka</item>
+        <item>Nangloi</item>
+        <item>Nangloi Rly Station</item>
+        <item>Nawada</item>
+        <item>Nehru Place</item>
+        <item>Netaji Subash Palace</item>
+        <item>New Ashok Nagar</item>
+        <item>New Delhi</item>
+        <item>Nirman Vihar</item>
+        <item>Noida City Centre</item>
+        <item>Noida Sec-15</item>
+        <item>Noida Sec-16</item>
+        <item>Noida Sec-18</item>
+        <item>Okhla</item>
+        <item>Paschim Vihar(East)</item>
+        <item>Paschim Vihar(West)</item>
+        <item>Patel Chowk</item>
+        <item>Patel Nagar</item>
+        <item>Peeragarhi</item>
+        <item>Pitampura</item>
+        <item>Pragati Maidan</item>
+        <item>Pratap Nagar</item>
+        <item>Preet Vihar</item>
+        <item>Pulbangash</item>
+        <item>Punjabi Bagh</item>
+        <item>Qutab Minar</item>
+        <item>R K Ashram Marg</item>
+        <item>Race Course</item>
+        <item>Rajdhani Park</item>
+        <item>Rajendra Place</item>
+        <item>Rajiv Chowk</item>
+        <item>Rajouri Garden</item>
+        <item>Ramesh Nagar</item>
+        <item>Rithala</item>
+        <item>Rohini East</item>
+        <item>Rohini West</item>
+        <item>Saket</item>
+        <item>Sarita Vihar</item>
+        <item>Satguru Ram Singh Marg</item>
+        <item>Seelampur</item>
+        <item>Shadipur</item>
+        <item>Shahdara</item>
+        <item>Shastri Nagar</item>
+        <item>Shastri Park</item>
+        <item>Shivaji Park</item>
+        <item>Sikandarpur</item>
+        <item>Subash Nagar</item>
+        <item>Sultanpur</item>
+        <item>Surajmal Stadium</item>
+        <item>Tagore Garden</item>
+        <item>Tilak Nagar</item>
+        <item>Tis Hazari</item>
+        <item>Tuglakabad</item>
+        <item>Udyog Bhawan</item>
+        <item>Udyog Nagar</item>
+        <item>Uttam Nagar East</item>
+        <item>Uttam Nagar West</item>
+        <item>Vaishali</item>
+        <item>Vidhan Sabha</item>
+        <item>Vishwavidyalaya</item>
+        <item>Welcome</item>
+        <item>Yamuna Bank</item>
+    </string-array>
+    <string-array name="stoplist_mr">
+        <item>एम्स</item>
+        <item>आदर्श नगर</item>
+        <item>अक्षरधाम</item>
+        <item>आनंद विहार</item>
+        <item>अर्जनगढ़</item>
+        <item>अशोक पार्क मेन</item>
+        <item>आजादपुर</item>
+        <item>बदरपुर</item>
+        <item>बाराखंभा</item>
+        <item>बोटैनिकल गार्डन</item>
+        <item>केंद्रीय सचिवालय</item>
+        <item>चांदनी चौक</item>
+        <item>छतरपुर</item>
+        <item>चावड़ी बाजार</item>
+        <item>सिविल लाइन्स</item>
+        <item>दिलशाद गार्डन</item>
+        <item>द्वारका</item>
+        <item>द्वारका मोड़</item>
+        <item>द्वारका Sec-10</item>
+        <item>द्वारका Sec-11</item>
+        <item>द्वारका Sec-12</item>
+        <item>द्वारका Sec-13</item>
+        <item>द्वारका Sec-14</item>
+        <item>द्वारका Sec-21</item>
+        <item>द्वारका Sec-8</item>
+        <item>द्वारका Sec-9</item>
+        <item>घिटोरनी</item>
+        <item>गोल्फ कोर्स</item>
+        <item>गोविंदपुरी</item>
+        <item>ग्रीन पार्क</item>
+        <item>जी टी बी नगर</item>
+        <item>गुरुद्रोणाचार्य</item>
+        <item>हौज़ खास</item>
+        <item>हुडा सिटी सेंटर</item>
+        <item>इफ्फको चौक</item>
+        <item>आईएनए</item>
+        <item>इंद्रलोक</item>
+        <item>इंद्रप्रस्थ</item>
+        <item>जहांगीरपुरी</item>
+        <item>जनक पुरी पूर्व</item>
+        <item>जनक पुरी पश्चिम</item>
+        <item>जंगपुरा</item>
+        <item>जनपथ</item>
+        <item>जसोला</item>
+        <item>जवाहर लाल नेहरू स्टेडियम</item>
+        <item>झंडेवालान</item>
+        <item>झिलमिल</item>
+        <item>जोरबाग</item>
+        <item>कैलाश कॉलोनी</item>
+        <item>कालकाजी मंदिर</item>
+        <item>कन्हैया नगर</item>
+        <item>करकरदुमा</item>
+        <item>करोल बाग</item>
+        <item>कश्मीरी गेट</item>
+        <item>कौशाम्बी</item>
+        <item>केशव पुरम</item>
+        <item>खान मार्केट</item>
+        <item>कीर्ति नगर</item>
+        <item>कोहाट एन्क्लेव</item>
+        <item>लाजपत नगर</item>
+        <item>लक्ष्मी नगर</item>
+        <item>एमजी रोड</item>
+        <item>मादीपुर</item>
+        <item>मालवीय नगर</item>
+        <item>मंडी हाउस</item>
+        <item>मानसरोवर पार्क</item>
+        <item>मयूर विहार 1</item>
+        <item>मयूर विहार एक्सटेंशन</item>
+        <item>मॉडल टाउन</item>
+        <item>मोहन एस्टेट</item>
+        <item>मूलचंद</item>
+        <item>मोती नगर</item>
+        <item>मुंडका</item>
+        <item>नांगलोई</item>
+        <item>नांगलोई रेलवे स्टेशन</item>
+        <item>नवादा</item>
+        <item>नेहरू प्लेस</item>
+        <item>नेताजी सुभाष पैलेस</item>
+        <item>न्यू अशोक नगर</item>
+        <item>नई दिल्ली</item>
+        <item>निर्माण विहार</item>
+        <item>नोएडा सिटी सेंटर</item>
+        <item>नोएडा Sec-15</item>
+        <item>नोएडा Sec-16</item>
+        <item>नोएडा Sec-18</item>
+        <item>ओखला</item>
+        <item>पश्चिम विहार(पूर्व)</item>
+        <item>पश्चिम विहार(पश्चिम)</item>
+        <item>पटेल चौक</item>
+        <item>पटेल नगर</item>
+        <item>पीरागढ़ी</item>
+        <item>पीतमपुरा</item>
+        <item>प्रगति मैदान</item>
+        <item>प्रताप नगर</item>
+        <item>प्रीत विहार</item>
+        <item>पुलबंगश</item>
+        <item>पंजाबी बाग</item>
+        <item>कुतुब मीनार</item>
+        <item>आर के आश्रम मार्ग</item>
+        <item>रेसकोर्स</item>
+        <item>राजधानी पार्क</item>
+        <item>राजेंद्र प्लेस</item>
+        <item>राजीव चौक</item>
+        <item>राजौरी गार्डन</item>
+        <item>रमेश नगर</item>
+        <item>रिठाला</item>
+        <item>रोहिणी ईस्ट</item>
+        <item>रोहिणी पश्चिम</item>
+        <item>साकेत</item>
+        <item>सरिता विहार</item>
+        <item>सतगुरु राम सिंह मार्ग</item>
+        <item>सीलमपुर</item>
+        <item>शादीपुर</item>
+        <item>शाहदरा</item>
+        <item>शास्त्री नगर</item>
+        <item>शास्त्री पार्क</item>
+        <item>शिवाजी पार्क</item>
+        <item>सिकन्दरपुर</item>
+        <item>सुभाष नगर</item>
+        <item>सुल्तानपुर</item>
+        <item>सूरजमल स्टेडियम</item>
+        <item>टैगोर गार्डन</item>
+        <item>तिलक नगर</item>
+        <item>तीस हजारी</item>
+        <item>तुगलकाबाद</item>
+        <item>उद्योग भवन</item>
+        <item>उद्योग नगर</item>
+        <item>उत्तम नगर ईस्ट</item>
+        <item>उत्तम नगर वेस्ट</item>
+        <item>वैशाली</item>
+        <item>विधान सभा</item>
+        <item>विश्वविद्यालय</item>
+        <item>वेलकम</item>
+        <item>यमुना बैंक</item>
+    </string-array>
+    <string-array name="stoplist_ta">
+        <item>AIIMS</item>
+        <item>Adarsh Nagar</item>
+        <item>Akshardham</item>
+        <item>Anand Vihar</item>
+        <item>Arjangarh</item>
+        <item>Ashok Park Main</item>
+        <item>Azadpur</item>
+        <item>Badarpur</item>
+        <item>Barakhamba</item>
+        <item>Botanical Garden</item>
+        <item>Central Secretariat</item>
+        <item>Chandni Chowk</item>
+        <item>Chattarpur</item>
+        <item>Chawri Bazar</item>
+        <item>Civil Lines</item>
+        <item>Dilshad Garden</item>
+        <item>Dwarka</item>
+        <item>Dwarka Mor</item>
+        <item>Dwarka Sec-10</item>
+        <item>Dwarka Sec-11</item>
+        <item>Dwarka Sec-12</item>
+        <item>Dwarka Sec-13</item>
+        <item>Dwarka Sec-14</item>
+        <item>Dwarka Sec-21</item>
+        <item>Dwarka Sec-8</item>
+        <item>Dwarka Sec-9</item>
+        <item>Ghitorni</item>
+        <item>Golf Course</item>
+        <item>Govindpuri</item>
+        <item>Green Park</item>
+        <item>GTB Nagar</item>
+        <item>Gurudronacharya</item>
+        <item>Hauz Khas</item>
+        <item>Huda City Centre</item>
+        <item>IFFCO Chowk</item>
+        <item>INA</item>
+        <item>Inderlok</item>
+        <item>Indraprastha</item>
+        <item>Jahangirpuri</item>
+        <item>Janak Puri East</item>
+        <item>Janak Puri West</item>
+        <item>Jangpura</item>
+        <item>Janpath</item>
+        <item>Jasola</item>
+        <item>Jawaharlal Nehru Stadium</item>
+        <item>Jhandewalan</item>
+        <item>Jhilmil</item>
+        <item>Jorbagh</item>
+        <item>Kailash Colony</item>
+        <item>Kalkaji Mandir</item>
+        <item>Kanhaiya Nagar</item>
+        <item>Karkarduma</item>
+        <item>Karol Bagh</item>
+        <item>Kashmere Gate</item>
+        <item>Kaushambi</item>
+        <item>Keshav Puram</item>
+        <item>Khan Market</item>
+        <item>Kirti Nagar</item>
+        <item>Kohat Enclave</item>
+        <item>Lajpat Nagar</item>
+        <item>Laxmi Nagar</item>
+        <item>MG Road</item>
+        <item>Madipur</item>
+        <item>Malviya Nagar</item>
+        <item>Mandi House</item>
+        <item>Mansarovar Park</item>
+        <item>Mayur Vihar 1</item>
+        <item>Mayur Vihar Ext</item>
+        <item>Model Town</item>
+        <item>Mohan Estate</item>
+        <item>Moolchand</item>
+        <item>Moti Nagar</item>
+        <item>Mundka</item>
+        <item>Nangloi</item>
+        <item>Nangloi Rly Station</item>
+        <item>Nawada</item>
+        <item>Nehru Place</item>
+        <item>Netaji Subash Palace</item>
+        <item>New Ashok Nagar</item>
+        <item>New Delhi</item>
+        <item>Nirman Vihar</item>
+        <item>Noida City Centre</item>
+        <item>Noida Sec-15</item>
+        <item>Noida Sec-16</item>
+        <item>Noida Sec-18</item>
+        <item>Okhla</item>
+        <item>Paschim Vihar(East)</item>
+        <item>Paschim Vihar(West)</item>
+        <item>Patel Chowk</item>
+        <item>Patel Nagar</item>
+        <item>Peeragarhi</item>
+        <item>Pitampura</item>
+        <item>Pragati Maidan</item>
+        <item>Pratap Nagar</item>
+        <item>Preet Vihar</item>
+        <item>Pulbangash</item>
+        <item>Punjabi Bagh</item>
+        <item>Qutab Minar</item>
+        <item>R K Ashram Marg</item>
+        <item>Race Course</item>
+        <item>Rajdhani Park</item>
+        <item>Rajendra Place</item>
+        <item>Rajiv Chowk</item>
+        <item>Rajouri Garden</item>
+        <item>Ramesh Nagar</item>
+        <item>Rithala</item>
+        <item>Rohini East</item>
+        <item>Rohini West</item>
+        <item>Saket</item>
+        <item>Sarita Vihar</item>
+        <item>Satguru Ram Singh Marg</item>
+        <item>Seelampur</item>
+        <item>Shadipur</item>
+        <item>Shahdara</item>
+        <item>Shastri Nagar</item>
+        <item>Shastri Park</item>
+        <item>Shivaji Park</item>
+        <item>Sikandarpur</item>
+        <item>Subash Nagar</item>
+        <item>Sultanpur</item>
+        <item>Surajmal Stadium</item>
+        <item>Tagore Garden</item>
+        <item>Tilak Nagar</item>
+        <item>Tis Hazari</item>
+        <item>Tuglakabad</item>
+        <item>Udyog Bhawan</item>
+        <item>Udyog Nagar</item>
+        <item>Uttam Nagar East</item>
+        <item>Uttam Nagar West</item>
+        <item>Vaishali</item>
+        <item>Vidhan Sabha</item>
+        <item>Vishwavidyalaya</item>
+        <item>Welcome</item>
+        <item>Yamuna Bank</item>
+    </string-array>
+    <string-array name="stoplist_te">
+        <item>AIIMS</item>
+        <item>Adarsh Nagar</item>
+        <item>Akshardham</item>
+        <item>Anand Vihar</item>
+        <item>Arjangarh</item>
+        <item>Ashok Park Main</item>
+        <item>Azadpur</item>
+        <item>Badarpur</item>
+        <item>Barakhamba</item>
+        <item>Botanical Garden</item>
+        <item>Central Secretariat</item>
+        <item>Chandni Chowk</item>
+        <item>Chattarpur</item>
+        <item>Chawri Bazar</item>
+        <item>Civil Lines</item>
+        <item>Dilshad Garden</item>
+        <item>Dwarka</item>
+        <item>Dwarka Mor</item>
+        <item>Dwarka Sec-10</item>
+        <item>Dwarka Sec-11</item>
+        <item>Dwarka Sec-12</item>
+        <item>Dwarka Sec-13</item>
+        <item>Dwarka Sec-14</item>
+        <item>Dwarka Sec-21</item>
+        <item>Dwarka Sec-8</item>
+        <item>Dwarka Sec-9</item>
+        <item>Ghitorni</item>
+        <item>Golf Course</item>
+        <item>Govindpuri</item>
+        <item>Green Park</item>
+        <item>GTB Nagar</item>
+        <item>Gurudronacharya</item>
+        <item>Hauz Khas</item>
+        <item>Huda City Centre</item>
+        <item>IFFCO Chowk</item>
+        <item>INA</item>
+        <item>Inderlok</item>
+        <item>Indraprastha</item>
+        <item>Jahangirpuri</item>
+        <item>Janak Puri East</item>
+        <item>Janak Puri West</item>
+        <item>Jangpura</item>
+        <item>Janpath</item>
+        <item>Jasola</item>
+        <item>Jawaharlal Nehru Stadium</item>
+        <item>Jhandewalan</item>
+        <item>Jhilmil</item>
+        <item>Jorbagh</item>
+        <item>Kailash Colony</item>
+        <item>Kalkaji Mandir</item>
+        <item>Kanhaiya Nagar</item>
+        <item>Karkarduma</item>
+        <item>Karol Bagh</item>
+        <item>Kashmere Gate</item>
+        <item>Kaushambi</item>
+        <item>Keshav Puram</item>
+        <item>Khan Market</item>
+        <item>Kirti Nagar</item>
+        <item>Kohat Enclave</item>
+        <item>Lajpat Nagar</item>
+        <item>Laxmi Nagar</item>
+        <item>MG Road</item>
+        <item>Madipur</item>
+        <item>Malviya Nagar</item>
+        <item>Mandi House</item>
+        <item>Mansarovar Park</item>
+        <item>Mayur Vihar 1</item>
+        <item>Mayur Vihar Ext</item>
+        <item>Model Town</item>
+        <item>Mohan Estate</item>
+        <item>Moolchand</item>
+        <item>Moti Nagar</item>
+        <item>Mundka</item>
+        <item>Nangloi</item>
+        <item>Nangloi Rly Station</item>
+        <item>Nawada</item>
+        <item>Nehru Place</item>
+        <item>Netaji Subash Palace</item>
+        <item>New Ashok Nagar</item>
+        <item>New Delhi</item>
+        <item>Nirman Vihar</item>
+        <item>Noida City Centre</item>
+        <item>Noida Sec-15</item>
+        <item>Noida Sec-16</item>
+        <item>Noida Sec-18</item>
+        <item>Okhla</item>
+        <item>Paschim Vihar(East)</item>
+        <item>Paschim Vihar(West)</item>
+        <item>Patel Chowk</item>
+        <item>Patel Nagar</item>
+        <item>Peeragarhi</item>
+        <item>Pitampura</item>
+        <item>Pragati Maidan</item>
+        <item>Pratap Nagar</item>
+        <item>Preet Vihar</item>
+        <item>Pulbangash</item>
+        <item>Punjabi Bagh</item>
+        <item>Qutab Minar</item>
+        <item>R K Ashram Marg</item>
+        <item>Race Course</item>
+        <item>Rajdhani Park</item>
+        <item>Rajendra Place</item>
+        <item>Rajiv Chowk</item>
+        <item>Rajouri Garden</item>
+        <item>Ramesh Nagar</item>
+        <item>Rithala</item>
+        <item>Rohini East</item>
+        <item>Rohini West</item>
+        <item>Saket</item>
+        <item>Sarita Vihar</item>
+        <item>Satguru Ram Singh Marg</item>
+        <item>Seelampur</item>
+        <item>Shadipur</item>
+        <item>Shahdara</item>
+        <item>Shastri Nagar</item>
+        <item>Shastri Park</item>
+        <item>Shivaji Park</item>
+        <item>Sikandarpur</item>
+        <item>Subash Nagar</item>
+        <item>Sultanpur</item>
+        <item>Surajmal Stadium</item>
+        <item>Tagore Garden</item>
+        <item>Tilak Nagar</item>
+        <item>Tis Hazari</item>
+        <item>Tuglakabad</item>
+        <item>Udyog Bhawan</item>
+        <item>Udyog Nagar</item>
+        <item>Uttam Nagar East</item>
+        <item>Uttam Nagar West</item>
+        <item>Vaishali</item>
+        <item>Vidhan Sabha</item>
+        <item>Vishwavidyalaya</item>
+        <item>Welcome</item>
+        <item>Yamuna Bank</item>
+    </string-array>
+    <string-array name="streetfood">
+        <item>Chandni Chowk\nParanthe Wali Gali\nFamous for varities of paranthas</item>
+        <item>Chandni Chowk\nLala Babu Chaat Bhandaar\nFor Authentica chat and Gobi Matar Samosas\n</item>
+        <item>Chandni Chowk\nBishan Swaroop\nFamour for fruit chaat and Aloo Kulla</item>
+        <item>Chandni Chowk\nShree Balaji Chaat Bhandar\nThe Papri chaat is must try</item>
+        <item>Sarojini Nagar\nKhandani Pakode wala\nThe Bread and Paneer pakodas is a must try</item>
+        <item>Sarojini Nagar\nKulcha King\nFamous Amritsari kulche and chole is a must try</item>
+        <item>Greater Kailash 1\nPrince\'s Paan and Chaat Corner\nFamous for its Pan</item>
+        <item>Delhi Haat</item>
+        <item>Khan Market\nKhan Chacha\nBest Rolls/Kebabs</item>
+        <item>Paharganj\nSitaram Diwan Chand\nPlace for Amazing Cholle Bhature</item>
+        <item>Pitampura\nBittu Tikki Wale\nOne Place for Crispy Tikki</item>
+        <item>Defence Colony Market\nSalim\'s Kebabs\nFamous Kebabs with Rumali Roti</item>
+        <item>Lajpat Nagar\nDolma Aunty ke Momos\nOne Place for Momo lovers</item>
+
+    </string-array>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="actionbar_background">#4fa630</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000ff</color>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/common_colors.xml -->
+    <eat-comment/>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="dark_white">#e5e0e0</color>
+    <color name="darkred">#d92f43</color>
+    <color name="green">#008000</color>
+    <color name="grey">#ff888888</color>
+    <color name="indigo">#4B0082 </color>
+    <color name="orange">#FFA500</color>
+    <color name="red">#FF0000</color>
+    <color name="tab_back">#74d76f</color>
+    <color name="violet">#EE82EE</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#dcde3d</color>
+    <declare-styleable name="FlipView"><attr format="enum" name="orientation"><enum name="vertical" value="0"/><enum name="horizontal" value="1"/></attr><attr format="enum" name="overFlipMode"><enum name="glow" value="0"/><enum name="rubber_band" value="1"/></attr></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="liteMode"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/><attr format="boolean" name="uiMapToolbar"/></declare-styleable>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/version.xml -->
+    <eat-comment/>
+    <integer name="google_play_services_version">7571000</integer>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Start">Tap to Start</string>
+    <string name="about">About</string>
+    <string name="about_header">About Us</string>
+    <string name="about_sum">Let\'s Know each other</string>
+    <string name="app ">App</string>
+    <string name="app_name">Delhi Metro Guide</string>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/auth_strings.xml -->
+    <eat-comment/>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="blue">blue</string>
+    <string name="cd">Choose destination</string>
+    <string name="changehere">Change here</string>
+    <string name="choose_destination_station">Choose Destination Station</string>
+    <string name="choose_source_station">Choose Source Station</string>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/common_strings.xml -->
+    <eat-comment/>
+    <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="cs">Choose Source</string>
+    <string name="daily_more_than_12_hrs">Daily more than 12 hrs</string>
+    <string name="daily_night_extra">Daily Night Extra</string>
+    <string name="daily_upto_12_hrs">Daily upto 12 Hrs</string>
+    <string name="daily_upto_6_hrs">Daily upto 6 Hrs</string>
+    <string name="dedicated1">This app is dedicated to The Almighty,to our parents,to friends.\nWe have tried our level best to keep the data integrity in accordance with Delhi Metro database.\n For reference we have choosen:</string>
+    <string name="dedicated2">For suggestions or feedback mail us at:</string>
+    <string name="destination_station">Select Destination</string>
+    <string name="developer">Developer</string>
+    <string name="enter_station_hint">Enter Station name</string>
+    <string name="fare_10">10</string>
+    <string name="fare_12">12</string>
+    <string name="fare_15">15</string>
+    <string name="fare_2">2</string>
+    <string name="fare_25">25</string>
+    <string name="fare_3">3</string>
+    <string name="fare_30">30</string>
+    <string name="fare_300">300</string>
+    <string name="fare_4">4</string>
+    <string name="fare_5">5</string>
+    <string name="fare_625">625</string>
+    <string name="fare_8">8</string>
+    <string name="fare_details">Fare Details</string>
+    <string name="fare_info">2. Fare Info.</string>
+    <string name="fare_label">Fare for Car, Bike and Cycle in Rs.</string>
+    <string name="fare_rs_0">NormalFare:Rs 0</string>
+    <string name="finish">Finish</string>
+    <string name="first">First</string>
+    <string name="first_time">First Train:NA</string>
+    <string name="first_time_code">First Train</string>
+    <string name="general">General</string>
+    <string name="green">green</string>
+    <string name="grey">grey</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="help">Metro Help</string>
+    <string name="helpheader0">Be a Smart Traveller!</string>
+    <string name="helpheader1"><html><b><u>5 Smart reasons to go for a smart Card!!</u></b></html>"\n"</string>
+    <string name="helpheader2"><html><b><u>Choose Your Smart Card!!</u></b></html>"\n"</string>
+    <string name="helpheader3"><html><b><u>HelpLine Numbers!!</u></b></html>"\n"</string>
+    <string name="indigo">indigo</string>
+    <string name="journeyTime">Travel Time: %1s (approx.)</string>
+    <string name="journey_header">Journey Details:</string>
+    <string name="junction">(Junction)</string>
+    <string name="keliyebadle">Change for</string>
+    <string name="langchange">Changing language</string>
+    <string name="language">Change Language</string>
+    <string name="language_info">5. We offer English, Hindi, Marathi,Kannada<!-- ,Tamil, Telugu, Malyalam -->.</string>
+    <string name="language_menu">Language</string>
+    <string name="last">Last</string>
+    <string name="last_source_station">Select Line</string>
+    <string name="last_time">Last Train:NA</string>
+    <string name="last_time_code">Last Train</string>
+    <string name="like_header">Google Like</string>
+    <string name="like_header_sum">If we deserve please like</string>
+    <string name="like_info">6. Please rate us on google. Also see our About Section in Settings
+        for feedback and suggestions</string>
+    <string name="line">line</string>
+    <string name="line_info">3. a). First-Last Train Info. \n  b). Offline Map</string>
+    <string name="map">Map</string>
+    <string name="metro_help">Metro Help</string>
+    <string name="metro_help_sum">A Metro Help Guide</string>
+    <string name="metro_map">Metro Map</string>
+    <string name="metro_map_sum">An Offline Delhi Metro Map</string>
+    <string name="metro_parking">Metro Parking Rates</string>
+    <string name="metro_parking_sum">List of General Parking Rates</string>
+    <string name="monthly">Monthly</string>
+    <string name="monthly_night_extra">Monthly Night Extra</string>
+    <string name="navigate_info">Please go through instructions on next page to use 
+        this application key features.</string>
+    <string name="nearby_metro_info">4. Find Nearby Metro and places to visit in Delhi</string>
+    <string name="next">Next</string>
+    <string name="noOfInterchange">InterChange: %1s</string>
+    <string name="noOfStations">Stations: %1s</string>
+    <string name="normalfare">Normal Fare: Rs %1s</string>
+    <string name="orange">orange</string>
+    <string name="page1_text1">Using Station Search Button </string>
+    <string name="page1_text2">There are two ways to choose station\n
+        a. Either by tapping the button which gives a popup list of stations\n\n
+        b. Or Use Search Button to search station by typing the name\n</string>
+    <string name="page1_text3">See the image instruction below.</string>
+    <string name="page2_text1">Using Language Change Feature</string>
+    <string name="page2_text2">Tap \"Language\" Menu Button shows the dialog with \"Language Choice\" which
+        can be used to Change the language of whole application.\n</string>
+    <string name="page2_text3">        See the image instruction below.</string>
+    <string name="page3_text1">Using Share Route Feature</string>
+    <string name="page3_text2">Tap \"Show Route\" Button shows the route with \"Share Option\" in action bar,
+        which can be used to share the route with our friends or someone in need.\n</string>
+    <string name="page3_text3">        See the image instruction below.</string>
+    <string name="parking">Parking Rates</string>
+    <string name="place_guide_text">To Reach %1$s: Take Metro from %2$s and deboard at %3$s</string>
+    <string name="prepend">Prepend</string>
+    <string name="press_start">Press Start to use Delhi Metro application.</string>
+    <string name="previous">Previous</string>
+    <string name="programmer">Saurabh, Shobhit, Sachin</string>
+    <string name="red">red</string>
+    <string name="reference">www.delhimetrorail.com</string>
+    <string name="release">release version:</string>
+    <string name="route_details">Route Details</string>
+    <string name="route_info">1. Route Info with color codes and approximate journey time.</string>
+    <string name="sde">Source and Destination are Empty</string>
+    <string name="sds">Source - Destination are Same</string>
+    <string name="search">Search Station</string>
+    <string name="settings">Settings</string>
+    <string name="show_route">Show Route</string>
+    <string name="smartcardFare">Smart Card Fare:Rs 0</string>
+    <string name="smartfare">SmartCard Fare: Rs %1s</string>
+    <string name="smartnote_fare">*Note: Use smart card to get 10% discount.</string>
+    <string name="source_station">Select Source</string>
+    <string name="suggestion">techdomain0502@gmail.com</string>
+    <string name="switch_button">Switch Stations</string>
+    <string name="tab_fare">Fare</string>
+    <string name="tab_lasttrain">Timings</string>
+    <string name="tab_route">Route</string>
+    <string name="thanks">Special Thanks to: Pritam, Reshma for giving us your
+        precious time and effort to translate this app. Many Many hearty thanks :)</string>
+    <string name="time_details">First-Last Train Details</string>
+    <string name="title_activity_main_tab">MainTabActivity</string>
+    <string name="to">to</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="tutorialpage1_text1">Thank You For Choosing Us.</string>
+    <string name="tutorialpage1_text2">We offer the following key features in 4 languages.</string>
+    <string name="update_header">Application Update</string>
+    <string name="update_sum">Keeps you updated</string>
+    <string name="version">1.1.20150627</string>
+    <string name="violet">violet</string>
+    <string name="welcome">Welcome</string>
+    <string name="yellow">yellow</string>
+    <!-- From: file:/D:/android_newworkspace/custom/2nd%20stable%20release%20gradle/delhiMetroGuide/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AlertDialogCustom">
+        <item name="android:textColor">@color/actionbar_background</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="DialogAnimation" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/dialogAnim</item>
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/actionbar_background</item>
+        <item name="android:titleTextStyle">@style/Title</item>
+        <item name="android:height">@dimen/actionBarHeight</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+    <style name="Title" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="dialogAnim">
+        <item name="android:windowEnterAnimation">@anim/trans_top_in</item>
+        <item name="android:windowExitAnimation">@anim/trans_top_out</item>
+    </style>
+</resources>

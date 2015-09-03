@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/2nd stable release gradle.iml" filepath="$PROJECT_DIR$/2nd stable release gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/delhiMetroGuide/delhiMetroGuide.iml" filepath="$PROJECT_DIR$/delhiMetroGuide/delhiMetroGuide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flipboard_library/flipboard_library.iml" filepath="$PROJECT_DIR$/flipboard_library/flipboard_library.iml" />
+    </modules>
+  </component>
+</project>

@@ -18,7 +18,7 @@
             android:textStyle="bold"
             android:padding="@dimen/fare_view_padding"
             android:text="@string/route_details"
-            android:textSize="20sp" />
+            android:textSize="@dimen/header_text_size" />
 
         <RelativeLayout
             android:id="@+id/route_container"
@@ -54,7 +54,8 @@
                 android:background="@color/tab_back"
                 android:padding="@dimen/fare_view_padding"
                 android:text="@string/show_route"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="@dimen/button_text_size"/>
 
             <Button
                 android:id="@+id/swapButton"
@@ -64,7 +65,8 @@
                 android:background="@color/tab_back"
                 android:padding="@dimen/fare_view_padding"
                 android:text="@string/switch_button"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="@dimen/button_text_size"/>
         </LinearLayout>
     </RelativeLayout>
 

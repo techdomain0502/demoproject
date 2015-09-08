@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <dimen name="button_text_size">18dp</dimen>
+    <dimen name="spinner_text_size">20dp</dimen>
+    <dimen name="header_text_size">20sp</dimen>
     <dimen name="station_header_textsize">5dp</dimen>
     <dimen name="parking_below_padding">60dp</dimen>
     <dimen name="parking_header_textsize">25dp</dimen>

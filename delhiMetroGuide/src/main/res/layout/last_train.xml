@@ -46,6 +46,7 @@
             android:layout_toRightOf="@+id/metro_icon_1"
             android:layout_toStartOf="@+id/searchView1"
             android:background="@android:color/transparent"
+            android:textSize="@dimen/spinner_text_size"
             android:hint="@string/last_source_station"
             android:minHeight="100dp"
             android:minWidth="100dp" />

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name ="logo_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">75dp</item>
+    </style>
+    <style name="welcome_text_layout_style">
+        <item name="android:layout_height">236dp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+    <style name="welcome_text_style">
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textSize">35dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+    </style>
+    <style name="press_start_text_style">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:textSize">25dp</item>
+    </style>
+    <style name="next_button_layout_style">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:textSize">29dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+    </resources>

@@ -7,13 +7,13 @@
     <string name="tutorialpage1_text2">We offer the following key features in 4 languages.</string>
     <string name="route_info">1. Route Info with color codes and approximate journey time.</string>
     <string name="fare_info">2. Fare Info.</string>
-    <string name="line_info">3. a). First-Last Train Info. \n  b). Offline Map</string>
-    <string name="nearby_metro_info">4. Find Nearby Metro and places to visit in Delhi</string>
+    <string name="line_info">3. a) First-Last Train Info. \n \t \t b) Offline Map.</string>
+    <string name="nearby_metro_info">4. Find Nearby Metro and places to visit in Delhi.</string>
     <string name="language_info">5. We offer English, Hindi, Marathi,Kannada<!-- ,Tamil, Telugu, Malyalam -->.</string>
     <string name="like_info">6. Please rate us on google. Also see our About Section in Settings
-        for feedback and suggestions</string>
+        for feedback and suggestions.</string>
     <string name="navigate_info">Please go through instructions on next page to use 
-        this application key features.</string>
+        this application\'s key features.</string>
     <string name="page1_text1">Using Station Search Button </string>
     <string name="page1_text2">There are two ways to choose station\n
         a. Either by tapping the button which gives a popup list of stations\n\n

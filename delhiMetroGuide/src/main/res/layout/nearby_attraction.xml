@@ -9,6 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:padding="10dp"
+        android:textSize="@dimen/button_text_size"
         android:text="Nearest Metro Station:"
         android:textStyle="bold" />
 
@@ -32,6 +33,7 @@
         android:layout_toLeftOf="@+id/current_location_button"
         android:enabled="false"
         android:hint="Nearest Metro Station"
+        android:textSize="@dimen/button_text_size"
         android:paddingBottom="10dp"
         android:paddingTop="10dp" />
 
@@ -45,6 +47,7 @@
 
     <Button
         android:id="@+id/findRoute"
+        android:textSize="@dimen/button_text_size"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

@@ -15,76 +15,74 @@
 
             <TextView
                 android:id="@+id/text1"
+                style="@style/tutorial_main_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:padding="18dp"
                 android:text="@string/page3_text1"
-                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/text2"
+                style="@style/tutorial_main_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text1"
-                android:padding="18dp"
                 android:text="@string/page3_text2"
-                android:textSize="20dp" />
+                />
 
             <TextView
                 android:id="@+id/text3"
+                style="@style/tutorial_main_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text2"
-                android:padding="18dp"
                 android:text="@string/page3_text3"
-                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/first"
+                style="@style/tutorial_first_image_style"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text3"
-                android:padding="0dp"
                 android:src="@drawable/thirdpage_topimage" />
 
             <ImageView
                 android:id="@+id/second"
+                style="@style/tutorial_second_image_style"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/first"
-                android:padding="5dp"
                 android:src="@drawable/thirdpage_marker1" />
         </RelativeLayout>
     </ScrollView>
 
     <RelativeLayout
         android:id="@+id/buttonContainer"
+        style="@style/tutorial_buttonContainer_style"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/actionbar_background"
-        android:minHeight="48dp" >
+        android:background="@color/actionbar_background">
 
         <Button
             android:id="@+id/previous"
+            style="@style/tutorial_previous_button_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:background="@android:color/transparent"
-            android:paddingLeft="15dp"
             android:text="@string/previous"
             android:textColor="@color/white" />
 
         <Button
             android:id="@+id/finish"
+            style="@style/tutorial_next_button_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:background="@android:color/transparent"
-            android:paddingRight="15dp"
             android:text="@string/finish"
             android:textColor="@color/white" />
     </RelativeLayout>

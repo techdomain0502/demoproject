@@ -20,7 +20,8 @@
     <dimen name="svoice_title_welcomepage_paddintop">97dp</dimen>
     <dimen name="search_station_textsize">20dp</dimen>
     <dimen name="actionBarHeight">70dp</dimen>
-    
+    <dimen name="setting_item_textsize">20sp</dimen>
+
    <!-- route,fare,time layout margin -->
    <dimen name="header_marginTop">30dp</dimen>
    <dimen name="buttonTopMargin">7dp</dimen>

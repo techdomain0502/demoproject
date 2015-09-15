@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="tutorial_main_text">
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">18dp</item>
+    </style>
+
+    <style name="tutorial_sub_text">
+        <item name="android:textSize">18dp</item>
+        <item name="android:padding">18dp</item>
+    </style>
+
+    <style name="tutorial_buttonContainer_style">
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="tutorial_previous_button_style">
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingLeft">15dp</item>
+    </style>
+
+    <style name="tutorial_next_button_style">
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="tutorial_first_image_style">
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="tutorial_second_image_style">
+        <item name="android:padding">5dp</item>
+    </style>
+</resources>

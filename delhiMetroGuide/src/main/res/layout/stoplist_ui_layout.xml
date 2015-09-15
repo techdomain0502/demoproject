@@ -12,6 +12,7 @@
 
         <TextView
             android:id="@+id/details"
+            style="@style/details_style"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -22,10 +23,10 @@
 
         <TextView
             android:id="@+id/station"
+            style="@style/station_style"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/details"
-            android:padding="5dp"
             android:text="@string/noOfStations"
             android:textSize="@dimen/fare_textSize"
             android:textStyle="bold"
@@ -33,10 +34,10 @@
 
         <TextView
             android:id="@+id/interchange"
+            style="@style/station_style"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/station"
-            android:padding="5dp"
             android:text="@string/noOfInterchange"
             android:textSize="@dimen/fare_textSize"
             android:textStyle="bold"
@@ -44,10 +45,10 @@
 
         <TextView
             android:id="@+id/time"
+            style="@style/station_style"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/interchange"
-            android:padding="5dp"
             android:text="@string/journeyTime"
             android:textSize="@dimen/fare_textSize"
             android:textStyle="bold"
@@ -55,10 +56,10 @@
 
         <TextView
             android:id="@+id/fare"
+            style="@style/station_style"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/time"
-            android:padding="5dp"
             android:text="@string/normalfare"
             android:textSize="@dimen/fare_textSize"
             android:textStyle="bold"

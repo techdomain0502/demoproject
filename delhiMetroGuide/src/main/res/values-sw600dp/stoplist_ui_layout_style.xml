@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="details_style">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <style name="station_style">
+        <item name="android:padding">20dp</item>
+    </style>
+</resources>

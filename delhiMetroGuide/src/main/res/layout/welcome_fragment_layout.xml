@@ -13,10 +13,9 @@
         android:visibility="visible" >
 
         <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
+            android:id="@+id/logo"
+            style="@style/logo_style"
+            android:layout_gravity="center_horizontal|center_vertical"
             android:background="@drawable/ic_launcher" />
     </LinearLayout>
 
@@ -27,48 +26,42 @@
 
         <LinearLayout
             android:id="@+id/welcome_text_layout"
+            style="@style/welcome_text_layout_style"
             android:layout_width="fill_parent"
-            android:layout_height="206dp"
             android:layout_alignParentBottom="true"
             android:background="@color/green"
             android:alpha="0.7"
             android:orientation="vertical"
-            android:paddingLeft="25dp"
             android:visibility="visible" >
 
             <TextView
+                android:id="@+id/welcome_text"
+                style="@style/welcome_text_style"
                 android:layout_width="wrap_content"
-                android:layout_height="33dp"
                 android:layout_gravity="top"
-                android:layout_marginBottom="8dp"
-                android:layout_marginRight="25dp"
-                android:layout_marginTop="15dp"
                 android:fontFamily="mono"
                 android:text="@string/welcome"
                 android:textColor="@color/white"
-                android:textSize="28dp" />
+                 />
 
             <TextView
+                android:id="@+id/press_start_text"
+                style="@style/press_start_text_style"
                 android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:layout_marginRight="25dp"
                 android:alpha="1"
                 android:fontFamily="mono"
                 android:text="@string/press_start"
                 android:textColor="@color/white"
-                android:textSize="17dp" />
+                />
 
             <Button
                 android:id="@+id/next_button_layout"
+                style="@style/next_button_layout_style"
                 android:layout_width="wrap_content"
-                android:layout_height="48dp"
                 android:layout_gravity="right|bottom"
                 android:background="@android:color/transparent"
                 android:focusable="true"
-                android:gravity="center_vertical"
                 android:orientation="horizontal"
-                android:paddingLeft="18dp"
-                android:paddingRight="18dp"
                 android:text="@string/Start"
                 android:textColor="@color/white" />
         </LinearLayout>

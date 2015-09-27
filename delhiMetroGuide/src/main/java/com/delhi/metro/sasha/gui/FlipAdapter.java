@@ -136,7 +136,7 @@ public class FlipAdapter extends BaseAdapter{
 			cc[++count] =	TextUtils.concat(str,"-",arr[1]);
 			}
 			Spannable str0 = new SpannableString(c.getResources().getString(R.string.helpheader1));
-			str0.setSpan(new ForegroundColorSpan(c.getResources().getColor(R.color.tab_back)), 0, str0.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+			str0.setSpan(new ForegroundColorSpan(Color.RED), 0, str0.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 			holder.header.setText(str0);
 
 		   }
@@ -169,7 +169,7 @@ public class FlipAdapter extends BaseAdapter{
 			cc[++count] =	TextUtils.concat(str,"-",arr[1]);
 			}
 			Spannable str0 = new SpannableString(c.getResources().getString(R.string.helpheader3));
-			str0.setSpan(new ForegroundColorSpan(c.getResources().getColor(R.color.tab_back)),0,str0.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+			str0.setSpan(new ForegroundColorSpan(Color.RED),0,str0.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 			holder.header.setText(str0);
 	   }
 	   

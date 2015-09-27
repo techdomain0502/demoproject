@@ -38,7 +38,7 @@
     <LinearLayout
         android:id="@+id/stretch_layout_1"
         android:layout_width="fill_parent"
-        android:layout_height="206dp"
+        android:layout_height="@dimen/stretch_layout_height"
         android:layout_alignParentBottom="true"
         android:alpha="0.8"
         android:background="@color/white"

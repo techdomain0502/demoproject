@@ -25,6 +25,7 @@
     <dimen name="lblListHeader_textsize">25dp</dimen>
     <dimen name="route_header_textsize">25dp</dimen>
     <dimen name="guide_textsize">23dp</dimen>
+    <dimen name="stretch_layout_height">256dp</dimen>
 
    <!-- route,fare,time layout margin -->
    <dimen name="header_marginTop">40dp</dimen>

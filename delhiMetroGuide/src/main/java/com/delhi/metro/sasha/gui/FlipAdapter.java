@@ -114,12 +114,12 @@ public class FlipAdapter extends BaseAdapter{
 		while(i.hasNext()) {
 			String arr[] = ((String)i.next()).split("-");
 			str = new SpannableString(arr[0]);
-			str.setSpan(new BackgroundColorSpan(Color.RED),0,arr[0].length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+			str.setSpan(new ForegroundColorSpan(Color.RED),0,arr[0].length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 			
 		cc[++count] =	TextUtils.concat(str,"-",arr[1]);
 		}
 		Spannable str0 = new SpannableString(c.getResources().getString(R.string.helpheader0));
-		str0.setSpan(new BackgroundColorSpan(Color.RED),0,str0.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+		str0.setSpan(new ForegroundColorSpan(Color.RED),0,str0.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 		holder.header.setText(str0);
 		
 	   }
@@ -130,15 +130,15 @@ public class FlipAdapter extends BaseAdapter{
 			while(i.hasNext()) {
 				String arr[] = ((String)i.next()).split("-");
 				str = new SpannableString(arr[0]);
-				str.setSpan(new BackgroundColorSpan(c.getResources().getColor(R.color.tab_back)),0,arr[0].length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+				str.setSpan(new ForegroundColorSpan(Color.RED),0,arr[0].length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 				str1 = new SpannableString(arr[1]);
 				str1.setSpan(new BackgroundColorSpan(Color.YELLOW),0,arr[1].length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 			cc[++count] =	TextUtils.concat(str,"-",arr[1]);
 			}
 			Spannable str0 = new SpannableString(c.getResources().getString(R.string.helpheader1));
-			str0.setSpan(new BackgroundColorSpan(c.getResources().getColor(R.color.tab_back)),0,str0.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+			str0.setSpan(new ForegroundColorSpan(c.getResources().getColor(R.color.tab_back)), 0, str0.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 			holder.header.setText(str0);
-			
+
 		   }
 	   else if(position == 2) {
 			Iterator i = items2.iterator();
@@ -147,12 +147,12 @@ public class FlipAdapter extends BaseAdapter{
 			while(i.hasNext()) {
 				String arr[] = ((String)i.next()).split("-");
 				str = new SpannableString(arr[0]);
-				str.setSpan(new BackgroundColorSpan(c.getResources().getColor(R.color.red)),0,arr[0].length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+				str.setSpan(new ForegroundColorSpan(Color.RED),0,arr[0].length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 				
 			cc[++count] =	TextUtils.concat(str,"-",arr[1]);
 			}
 			Spannable str0 = new SpannableString(c.getResources().getString(R.string.helpheader2));
-			str0.setSpan(new BackgroundColorSpan(c.getResources().getColor(R.color.red)),0,str0.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+			str0.setSpan(new ForegroundColorSpan(c.getResources().getColor(R.color.red)),0,str0.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 			holder.header.setText(str0);
 		   }
 	   else if (position == 3) {
@@ -162,14 +162,14 @@ public class FlipAdapter extends BaseAdapter{
 			while(i.hasNext()) {
 				String arr[] = ((String)i.next()).split("-");
 				str = new SpannableString(arr[0]);
-				str.setSpan(new BackgroundColorSpan(c.getResources().getColor(R.color.tab_back)),0,arr[0].length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+				str.setSpan(new ForegroundColorSpan(Color.RED),0,arr[0].length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 				str1 = new SpannableString(arr[1]);
 				str1.setSpan(new BackgroundColorSpan(Color.YELLOW),0,arr[1].length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 				
 			cc[++count] =	TextUtils.concat(str,"-",arr[1]);
 			}
 			Spannable str0 = new SpannableString(c.getResources().getString(R.string.helpheader3));
-			str0.setSpan(new BackgroundColorSpan(c.getResources().getColor(R.color.tab_back)),0,str0.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+			str0.setSpan(new ForegroundColorSpan(c.getResources().getColor(R.color.tab_back)),0,str0.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 			holder.header.setText(str0);
 	   }
 	   

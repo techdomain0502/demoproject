@@ -21,6 +21,10 @@
     <dimen name="search_station_textsize">20dp</dimen>
     <dimen name="actionBarHeight">70dp</dimen>
     <dimen name="setting_item_textsize">20sp</dimen>
+    <dimen name="lblListItem_textsize">17dp</dimen>
+    <dimen name="lblListHeader_textsize">20dp</dimen>
+    <dimen name="route_header_textsize">20dp</dimen>
+    <dimen name="guide_textsize">18dp</dimen>
 
    <!-- route,fare,time layout margin -->
    <dimen name="header_marginTop">30dp</dimen>

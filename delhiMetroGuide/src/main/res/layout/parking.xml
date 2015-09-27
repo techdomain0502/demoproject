@@ -19,7 +19,7 @@
             android:paddingRight="10dp"
             android:paddingStart="10dp"
             android:text="@string/fare_label"
-            android:textSize="16dp" />
+            android:textSize="@dimen/parking_content_textsize" />
 
         <RelativeLayout
             android:id="@+id/car_section"

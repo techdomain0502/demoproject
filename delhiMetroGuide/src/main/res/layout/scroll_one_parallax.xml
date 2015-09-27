@@ -115,6 +115,7 @@
             android:text="@string/thanks"
              android:padding="5dp"
              android:textStyle="bold|italic"
+            android:textSize="20sp"
             />
         
   

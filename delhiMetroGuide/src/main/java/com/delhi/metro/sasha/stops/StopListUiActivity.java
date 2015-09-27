@@ -99,6 +99,9 @@ public class StopListUiActivity extends FragmentActivity {
 		   getMenuInflater().inflate(R.menu.sharemenu, menu);
 		   MenuItem item = menu.findItem(R.id.menu_item_share); 
 		   mShareActionProvider = (ShareActionProvider) item.getActionProvider();
+		if (mShareActionProvider != null) {
+			mShareActionProvider.setShareIntent(getDefaultShareIntent());
+		}
 		return true;
 	}
 	
@@ -107,7 +110,8 @@ public class StopListUiActivity extends FragmentActivity {
 		   pathString = str;
 		   setShareIntent(getDefaultShareIntent());
 		   invalidateOptionsMenu();
-	   }
+
+	}
 		
 	
 	public String getSharePathString(){

@@ -5,8 +5,8 @@
     <dimen name="header_text_size">30sp</dimen>
     <dimen name="station_header_textsize">10dp</dimen>
     <dimen name="parking_below_padding">60dp</dimen>
-    <dimen name="parking_header_textsize">25dp</dimen>
-    <dimen name="parking_content_textsize">19dp</dimen>
+    <dimen name="parking_header_textsize">30dp</dimen>
+    <dimen name="parking_content_textsize">24dp</dimen>
     <dimen name="stop_list_below_padding">45dp</dimen>
     <dimen name="fare_textSize">24dp</dimen>
     <dimen name="note">22dp</dimen>
@@ -21,6 +21,10 @@
     <dimen name="search_station_textsize">25dp</dimen>
     <dimen name="actionBarHeight">70dp</dimen>
     <dimen name="setting_item_textsize">25sp</dimen>
+    <dimen name="lblListItem_textsize">22dp</dimen>
+    <dimen name="lblListHeader_textsize">25dp</dimen>
+    <dimen name="route_header_textsize">25dp</dimen>
+    <dimen name="guide_textsize">23dp</dimen>
 
    <!-- route,fare,time layout margin -->
    <dimen name="header_marginTop">40dp</dimen>
